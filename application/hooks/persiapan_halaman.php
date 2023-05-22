@@ -8,6 +8,8 @@ class PersiapanHalaman {
     function handleMenu(){
         /** @var CI_Controller $ci */
         $ci =& get_instance();
+        $ci->load->config('menu');
+        $exceptions = config_item('default_urls');
 
         // Cek apakah user sudah login dan sesuai hak akses
         $userdata = $ci->session->userdata('login');
@@ -61,7 +63,7 @@ class PersiapanHalaman {
         log_message("DEBUG", "=== All Menu With Allowed Permission ===". print_r($allMenu, true));
         log_message("DEBUG", "=== Menu (Current Url) ===". print_r($menuWithCurrentUrl, true));
         
-        if(!$this->isWebService()){
+        if(!in_array($this->currentUrl, $exceptions)){
             if(is_null($perm)){
                 $ci->load->view('errors/html/error_404', ['heading' => 'ACCESS DENIED', 'message' => 'You dont have permission to access this page']);
             }
