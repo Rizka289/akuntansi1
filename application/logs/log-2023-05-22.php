@@ -26456,3 +26456,14018 @@ DEBUG - 2023-05-22 15:24:29 -->  ======= MENU this PAGE Array
 
 )
 
+INFO - 2023-05-22 15:25:32 --> Config Class Initialized
+INFO - 2023-05-22 15:25:32 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:25:32 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:25:32 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:25:32 --> URI Class Initialized
+DEBUG - 2023-05-22 15:25:32 --> ============ Segments ======> Array
+(
+    [0] => permission
+)
+
+DEBUG - 2023-05-22 15:25:32 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission ======> 
+DEBUG - 2023-05-22 15:25:32 --> ============ Rewrite SetClass Routing ==========>  class: permission
+INFO - 2023-05-22 15:25:32 --> Router Class Initialized
+INFO - 2023-05-22 15:25:32 --> Output Class Initialized
+INFO - 2023-05-22 15:25:32 --> Security Class Initialized
+DEBUG - 2023-05-22 15:25:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:25:32 --> Input Class Initialized
+INFO - 2023-05-22 15:25:32 --> Language Class Initialized
+DEBUG - 2023-05-22 15:25:32 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:25:32 --> FIX Method ====> index
+INFO - 2023-05-22 15:25:32 --> Loader Class Initialized
+INFO - 2023-05-22 15:25:32 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:25:32 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:25:32 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:25:32 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:25:32 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:25:32 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:25:32 --> Email Class Initialized
+INFO - 2023-05-22 15:25:32 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:25:32 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:25:32 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:25:32 --> === Menu (Current Url) ===Array
+(
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:25:32 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:25:32 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 1
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/dtconfig/dt_permission.js
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/button_group.php
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/toolbar.panel.php
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/utils/dt_default_skrip.js
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/datatables.responsive.php
+DEBUG - 2023-05-22 15:25:32 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/themes.php
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/head/main.php
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/navbar/navbar.dore.php
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/sidebar/sidebar.dore.php
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/footer/main.php
+INFO - 2023-05-22 15:25:32 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/template/dore.php
+INFO - 2023-05-22 15:25:32 --> Final output sent to browser
+DEBUG - 2023-05-22 15:25:32 --> Total execution time: 0.1092
+INFO - 2023-05-22 15:25:33 --> Config Class Initialized
+INFO - 2023-05-22 15:25:33 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:25:33 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:25:33 --> URI Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> ============ Segments ======> Array
+(
+    [0] => permission
+)
+
+DEBUG - 2023-05-22 15:25:33 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission ======> 
+DEBUG - 2023-05-22 15:25:33 --> ============ Rewrite SetClass Routing ==========>  class: permission
+INFO - 2023-05-22 15:25:33 --> Router Class Initialized
+INFO - 2023-05-22 15:25:33 --> Output Class Initialized
+INFO - 2023-05-22 15:25:33 --> Security Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:25:33 --> Input Class Initialized
+INFO - 2023-05-22 15:25:33 --> Language Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:25:33 --> FIX Method ====> index
+INFO - 2023-05-22 15:25:33 --> Loader Class Initialized
+INFO - 2023-05-22 15:25:33 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:25:33 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:25:33 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:25:33 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:25:33 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:25:33 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:25:33 --> Email Class Initialized
+INFO - 2023-05-22 15:25:33 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:25:33 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:25:33 --> === Menu (Current Url) ===Array
+(
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:25:33 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:25:33 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 1
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/dtconfig/dt_permission.js
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/button_group.php
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/toolbar.panel.php
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/utils/dt_default_skrip.js
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/datatables.responsive.php
+DEBUG - 2023-05-22 15:25:33 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/themes.php
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/head/main.php
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/navbar/navbar.dore.php
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/sidebar/sidebar.dore.php
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/footer/main.php
+INFO - 2023-05-22 15:25:33 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/template/dore.php
+INFO - 2023-05-22 15:25:33 --> Final output sent to browser
+DEBUG - 2023-05-22 15:25:33 --> Total execution time: 0.0684
+INFO - 2023-05-22 15:25:33 --> Config Class Initialized
+INFO - 2023-05-22 15:25:33 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:25:33 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:25:33 --> URI Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:25:33 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:25:33 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:25:33 --> Router Class Initialized
+INFO - 2023-05-22 15:25:33 --> Output Class Initialized
+INFO - 2023-05-22 15:25:33 --> Security Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:25:33 --> Input Class Initialized
+INFO - 2023-05-22 15:25:33 --> Language Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:25:33 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:25:33 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:25:33 --> Loader Class Initialized
+INFO - 2023-05-22 15:25:33 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:25:33 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:25:33 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:25:33 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:25:33 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:25:33 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:25:33 --> Email Class Initialized
+INFO - 2023-05-22 15:25:33 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:25:33 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:25:33 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:25:33 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:25:33 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:25:33 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:25:53 --> Config Class Initialized
+INFO - 2023-05-22 15:25:53 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:25:53 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:25:53 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:25:53 --> URI Class Initialized
+DEBUG - 2023-05-22 15:25:53 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:25:53 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:25:53 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:25:53 --> Router Class Initialized
+INFO - 2023-05-22 15:25:53 --> Output Class Initialized
+INFO - 2023-05-22 15:25:53 --> Security Class Initialized
+DEBUG - 2023-05-22 15:25:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:25:53 --> Input Class Initialized
+INFO - 2023-05-22 15:25:53 --> Language Class Initialized
+DEBUG - 2023-05-22 15:25:53 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:25:53 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:25:53 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:25:53 --> Loader Class Initialized
+INFO - 2023-05-22 15:25:53 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:25:53 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:25:53 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:25:53 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:25:53 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:25:53 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:25:53 --> Email Class Initialized
+INFO - 2023-05-22 15:25:53 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:25:53 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:25:53 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:25:53 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:25:53 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:25:53 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:26:13 --> Config Class Initialized
+INFO - 2023-05-22 15:26:13 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:26:13 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:26:13 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:26:13 --> URI Class Initialized
+DEBUG - 2023-05-22 15:26:13 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:26:13 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:26:13 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:26:13 --> Router Class Initialized
+INFO - 2023-05-22 15:26:13 --> Output Class Initialized
+INFO - 2023-05-22 15:26:13 --> Security Class Initialized
+DEBUG - 2023-05-22 15:26:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:26:13 --> Input Class Initialized
+INFO - 2023-05-22 15:26:13 --> Language Class Initialized
+DEBUG - 2023-05-22 15:26:13 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:26:13 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:26:13 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:26:13 --> Loader Class Initialized
+INFO - 2023-05-22 15:26:13 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:26:13 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:26:13 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:26:13 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:26:13 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:26:13 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:26:13 --> Email Class Initialized
+INFO - 2023-05-22 15:26:13 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:26:13 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:26:13 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:13 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:13 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:26:13 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:26:17 --> Config Class Initialized
+INFO - 2023-05-22 15:26:17 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:26:17 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:26:17 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:26:17 --> URI Class Initialized
+DEBUG - 2023-05-22 15:26:17 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => skrip
+)
+
+DEBUG - 2023-05-22 15:26:17 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:26:17 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:26:17 --> Router Class Initialized
+INFO - 2023-05-22 15:26:17 --> Output Class Initialized
+INFO - 2023-05-22 15:26:17 --> Security Class Initialized
+DEBUG - 2023-05-22 15:26:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:26:17 --> Input Class Initialized
+INFO - 2023-05-22 15:26:17 --> Language Class Initialized
+DEBUG - 2023-05-22 15:26:17 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:26:17 --> FIX Method ====> skrip
+DEBUG - 2023-05-22 15:26:17 --> ====== MASUK HTTP METHOD ====> skrip_get
+INFO - 2023-05-22 15:26:18 --> Loader Class Initialized
+INFO - 2023-05-22 15:26:18 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:26:18 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:26:18 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:26:18 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:26:18 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:26:18 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:26:18 --> Email Class Initialized
+INFO - 2023-05-22 15:26:18 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:26:18 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:26:18 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:18 --> === Menu (Current Url) ===Array
+(
+)
+
+DEBUG - 2023-05-22 15:26:18 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+INFO - 2023-05-22 15:26:18 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/forms/form-permission.js
+INFO - 2023-05-22 15:26:21 --> Config Class Initialized
+INFO - 2023-05-22 15:26:21 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:26:21 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:26:21 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:26:21 --> URI Class Initialized
+DEBUG - 2023-05-22 15:26:21 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:26:21 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:26:21 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:26:21 --> Router Class Initialized
+INFO - 2023-05-22 15:26:21 --> Output Class Initialized
+INFO - 2023-05-22 15:26:21 --> Security Class Initialized
+DEBUG - 2023-05-22 15:26:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:26:21 --> Input Class Initialized
+INFO - 2023-05-22 15:26:21 --> Language Class Initialized
+DEBUG - 2023-05-22 15:26:21 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:26:21 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:26:21 --> ====== MASUK HTTP METHOD ====> permission_post
+INFO - 2023-05-22 15:26:21 --> Loader Class Initialized
+INFO - 2023-05-22 15:26:21 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:26:21 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:26:21 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:26:21 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:26:21 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:26:21 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:26:22 --> Email Class Initialized
+INFO - 2023-05-22 15:26:22 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:26:22 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:26:22 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:22 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:22 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:26:22 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:26:24 --> Config Class Initialized
+INFO - 2023-05-22 15:26:24 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:26:24 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:26:24 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:26:24 --> URI Class Initialized
+DEBUG - 2023-05-22 15:26:24 --> ============ Segments ======> Array
+(
+    [0] => permission
+)
+
+DEBUG - 2023-05-22 15:26:24 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission ======> 
+DEBUG - 2023-05-22 15:26:24 --> ============ Rewrite SetClass Routing ==========>  class: permission
+INFO - 2023-05-22 15:26:24 --> Router Class Initialized
+INFO - 2023-05-22 15:26:24 --> Output Class Initialized
+INFO - 2023-05-22 15:26:24 --> Security Class Initialized
+DEBUG - 2023-05-22 15:26:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:26:24 --> Input Class Initialized
+INFO - 2023-05-22 15:26:24 --> Language Class Initialized
+DEBUG - 2023-05-22 15:26:24 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:26:24 --> FIX Method ====> index
+INFO - 2023-05-22 15:26:24 --> Loader Class Initialized
+INFO - 2023-05-22 15:26:24 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:26:24 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:26:24 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:26:24 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:26:24 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:26:24 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:26:24 --> Email Class Initialized
+INFO - 2023-05-22 15:26:24 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:26:24 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:26:24 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:24 --> === Menu (Current Url) ===Array
+(
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:24 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:26:24 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 1
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/dtconfig/dt_permission.js
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/button_group.php
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/toolbar.panel.php
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/utils/dt_default_skrip.js
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/datatables.responsive.php
+DEBUG - 2023-05-22 15:26:24 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/themes.php
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/head/main.php
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/navbar/navbar.dore.php
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/sidebar/sidebar.dore.php
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/footer/main.php
+INFO - 2023-05-22 15:26:24 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/template/dore.php
+INFO - 2023-05-22 15:26:24 --> Final output sent to browser
+DEBUG - 2023-05-22 15:26:24 --> Total execution time: 0.0638
+INFO - 2023-05-22 15:26:25 --> Config Class Initialized
+INFO - 2023-05-22 15:26:25 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:26:25 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:26:25 --> URI Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> ============ Segments ======> Array
+(
+    [0] => permission
+)
+
+DEBUG - 2023-05-22 15:26:25 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission ======> 
+DEBUG - 2023-05-22 15:26:25 --> ============ Rewrite SetClass Routing ==========>  class: permission
+INFO - 2023-05-22 15:26:25 --> Router Class Initialized
+INFO - 2023-05-22 15:26:25 --> Output Class Initialized
+INFO - 2023-05-22 15:26:25 --> Security Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:26:25 --> Input Class Initialized
+INFO - 2023-05-22 15:26:25 --> Language Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:26:25 --> FIX Method ====> index
+INFO - 2023-05-22 15:26:25 --> Loader Class Initialized
+INFO - 2023-05-22 15:26:25 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:26:25 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:26:25 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:26:25 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:26:25 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:26:25 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:26:25 --> Email Class Initialized
+INFO - 2023-05-22 15:26:25 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:26:25 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:25 --> === Menu (Current Url) ===Array
+(
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:25 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:26:25 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 1
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/dtconfig/dt_permission.js
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/button_group.php
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/toolbar.panel.php
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/utils/dt_default_skrip.js
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/datatables.responsive.php
+DEBUG - 2023-05-22 15:26:25 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/themes.php
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/head/main.php
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/navbar/navbar.dore.php
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/sidebar/sidebar.dore.php
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/footer/main.php
+INFO - 2023-05-22 15:26:25 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/template/dore.php
+INFO - 2023-05-22 15:26:25 --> Final output sent to browser
+DEBUG - 2023-05-22 15:26:25 --> Total execution time: 0.0718
+INFO - 2023-05-22 15:26:25 --> Config Class Initialized
+INFO - 2023-05-22 15:26:25 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:26:25 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:26:25 --> URI Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:26:25 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:26:25 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:26:25 --> Router Class Initialized
+INFO - 2023-05-22 15:26:25 --> Output Class Initialized
+INFO - 2023-05-22 15:26:25 --> Security Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:26:25 --> Input Class Initialized
+INFO - 2023-05-22 15:26:25 --> Language Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:26:25 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:26:25 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:26:25 --> Loader Class Initialized
+INFO - 2023-05-22 15:26:25 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:26:25 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:26:25 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:26:25 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:26:25 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:26:25 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:26:25 --> Email Class Initialized
+INFO - 2023-05-22 15:26:25 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:26:25 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:26:25 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:25 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:25 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:26:25 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:26:45 --> Config Class Initialized
+INFO - 2023-05-22 15:26:45 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:26:45 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:26:45 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:26:45 --> URI Class Initialized
+DEBUG - 2023-05-22 15:26:45 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:26:45 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:26:45 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:26:45 --> Router Class Initialized
+INFO - 2023-05-22 15:26:45 --> Output Class Initialized
+INFO - 2023-05-22 15:26:45 --> Security Class Initialized
+DEBUG - 2023-05-22 15:26:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:26:45 --> Input Class Initialized
+INFO - 2023-05-22 15:26:45 --> Language Class Initialized
+DEBUG - 2023-05-22 15:26:45 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:26:45 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:26:45 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:26:45 --> Loader Class Initialized
+INFO - 2023-05-22 15:26:45 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:26:45 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:26:45 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:26:45 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:26:45 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:26:45 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:26:45 --> Email Class Initialized
+INFO - 2023-05-22 15:26:45 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:26:45 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:26:45 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:45 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:26:45 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:26:45 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:27:01 --> Config Class Initialized
+INFO - 2023-05-22 15:27:01 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:27:01 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:27:01 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:27:01 --> URI Class Initialized
+DEBUG - 2023-05-22 15:27:01 --> ============ Segments ======> Array
+(
+    [0] => public
+    [1] => assets
+    [2] => vendor
+    [3] => bootstrap
+    [4] => js
+    [5] => popper.min.js.map
+)
+
+DEBUG - 2023-05-22 15:27:01 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Public ======> 
+DEBUG - 2023-05-22 15:27:01 --> ============ Rewrite SetClass Routing ==========>  class: public
+INFO - 2023-05-22 15:27:01 --> Router Class Initialized
+INFO - 2023-05-22 15:27:01 --> Output Class Initialized
+INFO - 2023-05-22 15:27:01 --> Security Class Initialized
+DEBUG - 2023-05-22 15:27:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:27:01 --> Input Class Initialized
+INFO - 2023-05-22 15:27:01 --> Language Class Initialized
+DEBUG - 2023-05-22 15:27:01 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Public.php  ==> Exist: 
+ERROR - 2023-05-22 15:27:01 --> 404 Page Not Found: Public/assets
+INFO - 2023-05-22 15:27:05 --> Config Class Initialized
+INFO - 2023-05-22 15:27:05 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:27:05 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:27:05 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:27:05 --> URI Class Initialized
+DEBUG - 2023-05-22 15:27:05 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:27:05 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:27:05 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:27:05 --> Router Class Initialized
+INFO - 2023-05-22 15:27:05 --> Output Class Initialized
+INFO - 2023-05-22 15:27:05 --> Security Class Initialized
+DEBUG - 2023-05-22 15:27:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:27:05 --> Input Class Initialized
+INFO - 2023-05-22 15:27:05 --> Language Class Initialized
+DEBUG - 2023-05-22 15:27:05 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:27:05 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:27:05 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:27:05 --> Loader Class Initialized
+INFO - 2023-05-22 15:27:05 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:27:05 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:27:05 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:27:05 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:27:05 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:27:05 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:27:05 --> Email Class Initialized
+INFO - 2023-05-22 15:27:05 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:27:05 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:27:05 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:27:05 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:27:05 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:27:05 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:27:26 --> Config Class Initialized
+INFO - 2023-05-22 15:27:26 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:27:26 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:27:26 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:27:26 --> URI Class Initialized
+DEBUG - 2023-05-22 15:27:26 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:27:26 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:27:26 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:27:26 --> Router Class Initialized
+INFO - 2023-05-22 15:27:26 --> Output Class Initialized
+INFO - 2023-05-22 15:27:26 --> Security Class Initialized
+DEBUG - 2023-05-22 15:27:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:27:26 --> Input Class Initialized
+INFO - 2023-05-22 15:27:26 --> Language Class Initialized
+DEBUG - 2023-05-22 15:27:26 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:27:26 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:27:26 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:27:26 --> Loader Class Initialized
+INFO - 2023-05-22 15:27:26 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:27:26 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:27:26 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:27:26 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:27:26 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:27:26 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:27:26 --> Email Class Initialized
+INFO - 2023-05-22 15:27:26 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:27:26 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:27:26 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:27:26 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:27:26 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:27:26 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:27:47 --> Config Class Initialized
+INFO - 2023-05-22 15:27:47 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:27:47 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:27:47 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:27:47 --> URI Class Initialized
+DEBUG - 2023-05-22 15:27:47 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:27:47 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:27:47 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:27:47 --> Router Class Initialized
+INFO - 2023-05-22 15:27:47 --> Output Class Initialized
+INFO - 2023-05-22 15:27:47 --> Security Class Initialized
+DEBUG - 2023-05-22 15:27:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:27:47 --> Input Class Initialized
+INFO - 2023-05-22 15:27:47 --> Language Class Initialized
+DEBUG - 2023-05-22 15:27:47 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:27:47 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:27:47 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:27:47 --> Loader Class Initialized
+INFO - 2023-05-22 15:27:47 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:27:47 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:27:47 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:27:47 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:27:47 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:27:47 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:27:47 --> Email Class Initialized
+INFO - 2023-05-22 15:27:47 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:27:47 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:27:47 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:27:47 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:27:47 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:27:47 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:28:06 --> Config Class Initialized
+INFO - 2023-05-22 15:28:06 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:28:06 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:28:06 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:28:06 --> URI Class Initialized
+DEBUG - 2023-05-22 15:28:06 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:28:06 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:28:06 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:28:06 --> Router Class Initialized
+INFO - 2023-05-22 15:28:06 --> Output Class Initialized
+INFO - 2023-05-22 15:28:06 --> Security Class Initialized
+DEBUG - 2023-05-22 15:28:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:28:06 --> Input Class Initialized
+INFO - 2023-05-22 15:28:06 --> Language Class Initialized
+DEBUG - 2023-05-22 15:28:06 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:28:06 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:28:06 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:28:06 --> Loader Class Initialized
+INFO - 2023-05-22 15:28:06 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:28:06 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:28:06 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:28:06 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:28:06 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:28:06 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:28:06 --> Email Class Initialized
+INFO - 2023-05-22 15:28:06 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:28:06 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:28:06 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:06 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:06 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:28:06 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:28:18 --> Config Class Initialized
+INFO - 2023-05-22 15:28:18 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:28:18 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:28:18 --> URI Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:28:18 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:28:18 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:28:18 --> Router Class Initialized
+INFO - 2023-05-22 15:28:18 --> Output Class Initialized
+INFO - 2023-05-22 15:28:18 --> Security Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:28:18 --> Input Class Initialized
+INFO - 2023-05-22 15:28:18 --> Language Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:28:18 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:28:18 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:28:18 --> Loader Class Initialized
+INFO - 2023-05-22 15:28:18 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:28:18 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:28:18 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:28:18 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:28:18 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:28:18 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:28:18 --> Email Class Initialized
+INFO - 2023-05-22 15:28:18 --> Controller Class Initialized
+INFO - 2023-05-22 15:28:18 --> Config Class Initialized
+INFO - 2023-05-22 15:28:18 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:28:18 --> UTF-8 Support Enabled
+DEBUG - 2023-05-22 15:28:18 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+INFO - 2023-05-22 15:28:18 --> Utf8 Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:18 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:28:18 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:28:18 --> URI Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:28:18 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:28:18 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:28:18 --> Router Class Initialized
+INFO - 2023-05-22 15:28:18 --> Output Class Initialized
+INFO - 2023-05-22 15:28:18 --> Security Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:28:18 --> Input Class Initialized
+INFO - 2023-05-22 15:28:18 --> Language Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:28:18 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:28:18 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:28:18 --> Loader Class Initialized
+INFO - 2023-05-22 15:28:18 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:28:18 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:28:18 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:28:18 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:28:18 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:28:18 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:28:18 --> Email Class Initialized
+INFO - 2023-05-22 15:28:18 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:28:18 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:28:19 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:19 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:19 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:28:19 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:28:19 --> Config Class Initialized
+INFO - 2023-05-22 15:28:19 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:28:19 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:28:19 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:28:19 --> URI Class Initialized
+DEBUG - 2023-05-22 15:28:19 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:28:19 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:28:19 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:28:19 --> Router Class Initialized
+INFO - 2023-05-22 15:28:19 --> Output Class Initialized
+INFO - 2023-05-22 15:28:19 --> Security Class Initialized
+DEBUG - 2023-05-22 15:28:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:28:19 --> Input Class Initialized
+INFO - 2023-05-22 15:28:19 --> Language Class Initialized
+DEBUG - 2023-05-22 15:28:19 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:28:19 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:28:19 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:28:19 --> Loader Class Initialized
+INFO - 2023-05-22 15:28:19 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:28:19 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:28:19 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:28:19 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:28:19 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:28:19 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:28:19 --> Email Class Initialized
+INFO - 2023-05-22 15:28:19 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:28:19 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:28:19 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:19 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:19 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:28:19 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:28:21 --> Config Class Initialized
+INFO - 2023-05-22 15:28:21 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:28:21 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:28:21 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:28:21 --> URI Class Initialized
+DEBUG - 2023-05-22 15:28:21 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:28:21 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:28:21 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:28:21 --> Router Class Initialized
+INFO - 2023-05-22 15:28:21 --> Output Class Initialized
+INFO - 2023-05-22 15:28:21 --> Security Class Initialized
+DEBUG - 2023-05-22 15:28:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:28:21 --> Input Class Initialized
+INFO - 2023-05-22 15:28:21 --> Language Class Initialized
+DEBUG - 2023-05-22 15:28:21 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:28:21 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:28:21 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:28:21 --> Loader Class Initialized
+INFO - 2023-05-22 15:28:21 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:28:21 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:28:21 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:28:21 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:28:21 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:28:21 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:28:21 --> Email Class Initialized
+INFO - 2023-05-22 15:28:21 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:28:21 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:28:21 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:21 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:21 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:28:21 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:28:21 --> Config Class Initialized
+INFO - 2023-05-22 15:28:21 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:28:21 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:28:21 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:28:21 --> URI Class Initialized
+DEBUG - 2023-05-22 15:28:21 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:28:21 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:28:21 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:28:21 --> Router Class Initialized
+INFO - 2023-05-22 15:28:22 --> Output Class Initialized
+INFO - 2023-05-22 15:28:22 --> Security Class Initialized
+DEBUG - 2023-05-22 15:28:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:28:22 --> Input Class Initialized
+INFO - 2023-05-22 15:28:22 --> Language Class Initialized
+DEBUG - 2023-05-22 15:28:22 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:28:22 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:28:22 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:28:22 --> Loader Class Initialized
+INFO - 2023-05-22 15:28:22 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:28:22 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:28:22 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:28:22 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:28:22 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:28:22 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:28:22 --> Email Class Initialized
+INFO - 2023-05-22 15:28:22 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:28:22 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:28:22 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:22 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:22 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:28:22 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:28:25 --> Config Class Initialized
+INFO - 2023-05-22 15:28:25 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:28:25 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:28:25 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:28:25 --> URI Class Initialized
+DEBUG - 2023-05-22 15:28:25 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:28:25 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:28:25 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:28:25 --> Router Class Initialized
+INFO - 2023-05-22 15:28:25 --> Output Class Initialized
+INFO - 2023-05-22 15:28:25 --> Security Class Initialized
+DEBUG - 2023-05-22 15:28:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:28:25 --> Input Class Initialized
+INFO - 2023-05-22 15:28:25 --> Language Class Initialized
+DEBUG - 2023-05-22 15:28:25 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:28:25 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:28:25 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:28:25 --> Loader Class Initialized
+INFO - 2023-05-22 15:28:25 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:28:25 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:28:25 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:28:25 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:28:25 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:28:25 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:28:25 --> Email Class Initialized
+INFO - 2023-05-22 15:28:25 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:28:25 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:28:25 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:25 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:25 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:28:25 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:28:46 --> Config Class Initialized
+INFO - 2023-05-22 15:28:46 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:28:46 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:28:46 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:28:46 --> URI Class Initialized
+DEBUG - 2023-05-22 15:28:46 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:28:46 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:28:46 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:28:46 --> Router Class Initialized
+INFO - 2023-05-22 15:28:46 --> Output Class Initialized
+INFO - 2023-05-22 15:28:46 --> Security Class Initialized
+DEBUG - 2023-05-22 15:28:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:28:46 --> Input Class Initialized
+INFO - 2023-05-22 15:28:46 --> Language Class Initialized
+DEBUG - 2023-05-22 15:28:46 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:28:46 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:28:46 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:28:46 --> Loader Class Initialized
+INFO - 2023-05-22 15:28:46 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:28:46 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:28:46 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:28:46 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:28:46 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:28:46 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:28:46 --> Email Class Initialized
+INFO - 2023-05-22 15:28:46 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:28:46 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:28:46 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:46 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:28:46 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:28:46 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:29:06 --> Config Class Initialized
+INFO - 2023-05-22 15:29:06 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:29:06 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:29:06 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:29:06 --> URI Class Initialized
+DEBUG - 2023-05-22 15:29:06 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:29:06 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:29:06 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:29:06 --> Router Class Initialized
+INFO - 2023-05-22 15:29:06 --> Output Class Initialized
+INFO - 2023-05-22 15:29:06 --> Security Class Initialized
+DEBUG - 2023-05-22 15:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:29:06 --> Input Class Initialized
+INFO - 2023-05-22 15:29:06 --> Language Class Initialized
+DEBUG - 2023-05-22 15:29:06 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:29:06 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:29:06 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:29:06 --> Loader Class Initialized
+INFO - 2023-05-22 15:29:06 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:29:06 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:29:06 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:29:06 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:29:06 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:29:06 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:29:06 --> Email Class Initialized
+INFO - 2023-05-22 15:29:06 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:29:06 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:29:06 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:06 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:06 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:29:06 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:29:26 --> Config Class Initialized
+INFO - 2023-05-22 15:29:26 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:29:26 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:29:26 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:29:26 --> URI Class Initialized
+DEBUG - 2023-05-22 15:29:26 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:29:26 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:29:26 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:29:26 --> Router Class Initialized
+INFO - 2023-05-22 15:29:26 --> Output Class Initialized
+INFO - 2023-05-22 15:29:26 --> Security Class Initialized
+DEBUG - 2023-05-22 15:29:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:29:26 --> Input Class Initialized
+INFO - 2023-05-22 15:29:26 --> Language Class Initialized
+DEBUG - 2023-05-22 15:29:26 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:29:26 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:29:26 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:29:26 --> Loader Class Initialized
+INFO - 2023-05-22 15:29:26 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:29:26 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:29:26 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:29:26 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:29:26 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:29:26 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:29:26 --> Email Class Initialized
+INFO - 2023-05-22 15:29:26 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:29:26 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:29:26 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:26 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:26 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:29:26 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:29:51 --> Config Class Initialized
+INFO - 2023-05-22 15:29:51 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:29:51 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:29:51 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:29:51 --> URI Class Initialized
+DEBUG - 2023-05-22 15:29:51 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:29:51 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:29:51 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:29:51 --> Router Class Initialized
+INFO - 2023-05-22 15:29:51 --> Output Class Initialized
+INFO - 2023-05-22 15:29:51 --> Security Class Initialized
+DEBUG - 2023-05-22 15:29:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:29:51 --> Input Class Initialized
+INFO - 2023-05-22 15:29:51 --> Language Class Initialized
+DEBUG - 2023-05-22 15:29:51 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:29:51 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:29:51 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:29:51 --> Loader Class Initialized
+INFO - 2023-05-22 15:29:51 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:29:51 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:29:51 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:29:51 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:29:51 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:29:51 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:29:51 --> Email Class Initialized
+INFO - 2023-05-22 15:29:51 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:29:51 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:29:51 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:51 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:51 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:29:51 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:29:54 --> Config Class Initialized
+INFO - 2023-05-22 15:29:54 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:29:54 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:29:54 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:29:54 --> URI Class Initialized
+DEBUG - 2023-05-22 15:29:54 --> ============ Segments ======> Array
+(
+    [0] => permission
+)
+
+DEBUG - 2023-05-22 15:29:54 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission ======> 
+DEBUG - 2023-05-22 15:29:54 --> ============ Rewrite SetClass Routing ==========>  class: permission
+INFO - 2023-05-22 15:29:54 --> Router Class Initialized
+INFO - 2023-05-22 15:29:54 --> Output Class Initialized
+INFO - 2023-05-22 15:29:54 --> Security Class Initialized
+DEBUG - 2023-05-22 15:29:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:29:54 --> Input Class Initialized
+INFO - 2023-05-22 15:29:54 --> Language Class Initialized
+DEBUG - 2023-05-22 15:29:54 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:29:54 --> FIX Method ====> index
+INFO - 2023-05-22 15:29:54 --> Loader Class Initialized
+INFO - 2023-05-22 15:29:54 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:29:54 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:29:54 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:29:54 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:29:54 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:29:54 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:29:54 --> Email Class Initialized
+INFO - 2023-05-22 15:29:54 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:29:54 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:29:54 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:54 --> === Menu (Current Url) ===Array
+(
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:54 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:29:54 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 1
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/dtconfig/dt_permission.js
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/button_group.php
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/toolbar.panel.php
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/utils/dt_default_skrip.js
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/datatables.responsive.php
+DEBUG - 2023-05-22 15:29:54 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/themes.php
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/head/main.php
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/navbar/navbar.dore.php
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/sidebar/sidebar.dore.php
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/footer/main.php
+INFO - 2023-05-22 15:29:54 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/template/dore.php
+INFO - 2023-05-22 15:29:54 --> Final output sent to browser
+DEBUG - 2023-05-22 15:29:54 --> Total execution time: 0.3167
+INFO - 2023-05-22 15:29:55 --> Config Class Initialized
+INFO - 2023-05-22 15:29:55 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:29:55 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:29:55 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:29:55 --> URI Class Initialized
+DEBUG - 2023-05-22 15:29:55 --> ============ Segments ======> Array
+(
+    [0] => public
+    [1] => assets
+    [2] => vendor
+    [3] => bootstrap
+    [4] => js
+    [5] => popper.min.js.map
+)
+
+DEBUG - 2023-05-22 15:29:55 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Public ======> 
+DEBUG - 2023-05-22 15:29:55 --> ============ Rewrite SetClass Routing ==========>  class: public
+INFO - 2023-05-22 15:29:55 --> Router Class Initialized
+INFO - 2023-05-22 15:29:55 --> Output Class Initialized
+INFO - 2023-05-22 15:29:55 --> Security Class Initialized
+DEBUG - 2023-05-22 15:29:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:29:55 --> Input Class Initialized
+INFO - 2023-05-22 15:29:55 --> Language Class Initialized
+DEBUG - 2023-05-22 15:29:55 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Public.php  ==> Exist: 
+ERROR - 2023-05-22 15:29:55 --> 404 Page Not Found: Public/assets
+INFO - 2023-05-22 15:29:57 --> Config Class Initialized
+INFO - 2023-05-22 15:29:57 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:29:57 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:29:57 --> URI Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> ============ Segments ======> Array
+(
+    [0] => permission
+)
+
+DEBUG - 2023-05-22 15:29:57 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission ======> 
+DEBUG - 2023-05-22 15:29:57 --> ============ Rewrite SetClass Routing ==========>  class: permission
+INFO - 2023-05-22 15:29:57 --> Router Class Initialized
+INFO - 2023-05-22 15:29:57 --> Output Class Initialized
+INFO - 2023-05-22 15:29:57 --> Security Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:29:57 --> Input Class Initialized
+INFO - 2023-05-22 15:29:57 --> Language Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Permission.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:29:57 --> FIX Method ====> index
+INFO - 2023-05-22 15:29:57 --> Loader Class Initialized
+INFO - 2023-05-22 15:29:57 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:29:57 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:29:57 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:29:57 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:29:57 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:29:57 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:29:57 --> Email Class Initialized
+INFO - 2023-05-22 15:29:57 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:29:57 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:57 --> === Menu (Current Url) ===Array
+(
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:57 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:29:57 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 1
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 1
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/dtconfig/dt_permission.js
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/button_group.php
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/toolbar.panel.php
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/public/assets/js/utils/dt_default_skrip.js
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/datatables/datatables.responsive.php
+DEBUG - 2023-05-22 15:29:57 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/themes.php
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/head/main.php
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/navbar/navbar.dore.php
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/component/sidebar/sidebar.dore.php
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/footer/main.php
+INFO - 2023-05-22 15:29:57 --> File loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/views/template/dore.php
+INFO - 2023-05-22 15:29:57 --> Final output sent to browser
+DEBUG - 2023-05-22 15:29:57 --> Total execution time: 0.1164
+INFO - 2023-05-22 15:29:57 --> Config Class Initialized
+INFO - 2023-05-22 15:29:57 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:29:57 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:29:57 --> URI Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:29:57 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:29:57 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:29:57 --> Router Class Initialized
+INFO - 2023-05-22 15:29:57 --> Output Class Initialized
+INFO - 2023-05-22 15:29:57 --> Security Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:29:57 --> Input Class Initialized
+INFO - 2023-05-22 15:29:57 --> Language Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:29:57 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:29:57 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:29:57 --> Loader Class Initialized
+INFO - 2023-05-22 15:29:57 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:29:57 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:29:57 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:29:57 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:29:57 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:29:57 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:29:57 --> Email Class Initialized
+INFO - 2023-05-22 15:29:57 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:29:57 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:29:57 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:57 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:29:57 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:29:57 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:30:18 --> Config Class Initialized
+INFO - 2023-05-22 15:30:18 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:30:18 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:30:18 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:30:18 --> URI Class Initialized
+DEBUG - 2023-05-22 15:30:18 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:30:18 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:30:18 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:30:18 --> Router Class Initialized
+INFO - 2023-05-22 15:30:18 --> Output Class Initialized
+INFO - 2023-05-22 15:30:18 --> Security Class Initialized
+DEBUG - 2023-05-22 15:30:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:30:18 --> Input Class Initialized
+INFO - 2023-05-22 15:30:18 --> Language Class Initialized
+DEBUG - 2023-05-22 15:30:18 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:30:18 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:30:18 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:30:18 --> Loader Class Initialized
+INFO - 2023-05-22 15:30:18 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:30:18 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:30:18 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:30:18 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:30:18 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:30:18 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:30:18 --> Email Class Initialized
+INFO - 2023-05-22 15:30:18 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:30:18 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:30:18 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:30:18 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:30:18 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:30:18 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:30:38 --> Config Class Initialized
+INFO - 2023-05-22 15:30:38 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:30:38 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:30:38 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:30:38 --> URI Class Initialized
+DEBUG - 2023-05-22 15:30:38 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:30:38 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:30:38 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:30:38 --> Router Class Initialized
+INFO - 2023-05-22 15:30:38 --> Output Class Initialized
+INFO - 2023-05-22 15:30:38 --> Security Class Initialized
+DEBUG - 2023-05-22 15:30:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:30:38 --> Input Class Initialized
+INFO - 2023-05-22 15:30:38 --> Language Class Initialized
+DEBUG - 2023-05-22 15:30:38 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:30:38 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:30:38 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:30:38 --> Loader Class Initialized
+INFO - 2023-05-22 15:30:38 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:30:38 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:30:38 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:30:38 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:30:38 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:30:38 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:30:38 --> Email Class Initialized
+INFO - 2023-05-22 15:30:38 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:30:38 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:30:38 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:30:38 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:30:38 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:30:38 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:30:57 --> Config Class Initialized
+INFO - 2023-05-22 15:30:57 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:30:57 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:30:57 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:30:57 --> URI Class Initialized
+DEBUG - 2023-05-22 15:30:57 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:30:57 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:30:57 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:30:57 --> Router Class Initialized
+INFO - 2023-05-22 15:30:57 --> Output Class Initialized
+INFO - 2023-05-22 15:30:57 --> Security Class Initialized
+DEBUG - 2023-05-22 15:30:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:30:57 --> Input Class Initialized
+INFO - 2023-05-22 15:30:57 --> Language Class Initialized
+DEBUG - 2023-05-22 15:30:57 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:30:57 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:30:57 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:30:57 --> Loader Class Initialized
+INFO - 2023-05-22 15:30:57 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:30:57 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:30:57 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:30:57 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:30:57 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:30:57 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:30:57 --> Email Class Initialized
+INFO - 2023-05-22 15:30:57 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:30:57 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:30:57 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:30:57 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:30:57 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:30:57 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:30:58 --> Config Class Initialized
+INFO - 2023-05-22 15:30:58 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:30:58 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:30:58 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:30:58 --> URI Class Initialized
+DEBUG - 2023-05-22 15:30:58 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:30:58 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:30:58 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:30:58 --> Router Class Initialized
+INFO - 2023-05-22 15:30:58 --> Output Class Initialized
+INFO - 2023-05-22 15:30:58 --> Security Class Initialized
+DEBUG - 2023-05-22 15:30:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:30:58 --> Input Class Initialized
+INFO - 2023-05-22 15:30:58 --> Language Class Initialized
+DEBUG - 2023-05-22 15:30:58 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:30:58 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:30:58 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:30:58 --> Loader Class Initialized
+INFO - 2023-05-22 15:30:58 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:30:58 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:30:58 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:30:58 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:30:58 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:30:58 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:30:58 --> Email Class Initialized
+INFO - 2023-05-22 15:30:58 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:30:58 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:30:58 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:30:58 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:30:58 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:30:58 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:31:29 --> Config Class Initialized
+INFO - 2023-05-22 15:31:29 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:31:29 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:31:29 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:31:29 --> URI Class Initialized
+DEBUG - 2023-05-22 15:31:29 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:31:29 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:31:29 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:31:29 --> Router Class Initialized
+INFO - 2023-05-22 15:31:29 --> Output Class Initialized
+INFO - 2023-05-22 15:31:29 --> Security Class Initialized
+DEBUG - 2023-05-22 15:31:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:31:29 --> Input Class Initialized
+INFO - 2023-05-22 15:31:29 --> Language Class Initialized
+DEBUG - 2023-05-22 15:31:29 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:31:29 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:31:29 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:31:29 --> Loader Class Initialized
+INFO - 2023-05-22 15:31:29 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:31:29 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:31:29 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:31:29 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:31:29 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:31:29 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:31:29 --> Email Class Initialized
+INFO - 2023-05-22 15:31:29 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:31:29 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:31:29 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:31:29 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:31:29 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:31:29 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:32:37 --> Config Class Initialized
+INFO - 2023-05-22 15:32:37 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:32:37 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:32:37 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:32:37 --> URI Class Initialized
+DEBUG - 2023-05-22 15:32:37 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:32:37 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:32:37 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:32:37 --> Router Class Initialized
+INFO - 2023-05-22 15:32:37 --> Output Class Initialized
+INFO - 2023-05-22 15:32:37 --> Security Class Initialized
+DEBUG - 2023-05-22 15:32:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:32:37 --> Input Class Initialized
+INFO - 2023-05-22 15:32:37 --> Language Class Initialized
+DEBUG - 2023-05-22 15:32:37 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:32:37 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:32:37 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:32:37 --> Loader Class Initialized
+INFO - 2023-05-22 15:32:37 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:32:37 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:32:37 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:32:37 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:32:37 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:32:37 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:32:37 --> Email Class Initialized
+INFO - 2023-05-22 15:32:37 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:32:37 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:32:37 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:32:37 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:32:37 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:32:37 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:32:58 --> Config Class Initialized
+INFO - 2023-05-22 15:32:58 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:32:58 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:32:58 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:32:58 --> URI Class Initialized
+DEBUG - 2023-05-22 15:32:58 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:32:58 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:32:58 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:32:58 --> Router Class Initialized
+INFO - 2023-05-22 15:32:58 --> Output Class Initialized
+INFO - 2023-05-22 15:32:58 --> Security Class Initialized
+DEBUG - 2023-05-22 15:32:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:32:58 --> Input Class Initialized
+INFO - 2023-05-22 15:32:58 --> Language Class Initialized
+DEBUG - 2023-05-22 15:32:58 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:32:58 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:32:58 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:32:58 --> Loader Class Initialized
+INFO - 2023-05-22 15:32:58 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:32:58 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:32:58 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:32:58 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:32:58 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:32:58 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:32:58 --> Email Class Initialized
+INFO - 2023-05-22 15:32:58 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:32:58 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:32:58 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:32:58 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:32:58 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:32:58 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:33:52 --> Config Class Initialized
+INFO - 2023-05-22 15:33:52 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:33:52 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:33:52 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:33:52 --> URI Class Initialized
+DEBUG - 2023-05-22 15:33:52 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:33:52 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:33:52 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:33:52 --> Router Class Initialized
+INFO - 2023-05-22 15:33:52 --> Output Class Initialized
+INFO - 2023-05-22 15:33:52 --> Security Class Initialized
+DEBUG - 2023-05-22 15:33:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:33:52 --> Input Class Initialized
+INFO - 2023-05-22 15:33:52 --> Language Class Initialized
+DEBUG - 2023-05-22 15:33:52 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:33:52 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:33:52 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:33:52 --> Loader Class Initialized
+INFO - 2023-05-22 15:33:52 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:33:52 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:33:52 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:33:52 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:33:52 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:33:52 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:33:52 --> Email Class Initialized
+INFO - 2023-05-22 15:33:52 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:33:52 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:33:52 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:33:52 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:33:52 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:33:52 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:34:51 --> Config Class Initialized
+INFO - 2023-05-22 15:34:51 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:34:51 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:34:51 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:34:51 --> URI Class Initialized
+DEBUG - 2023-05-22 15:34:51 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:34:51 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:34:51 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:34:51 --> Router Class Initialized
+INFO - 2023-05-22 15:34:51 --> Output Class Initialized
+INFO - 2023-05-22 15:34:51 --> Security Class Initialized
+DEBUG - 2023-05-22 15:34:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:34:51 --> Input Class Initialized
+INFO - 2023-05-22 15:34:51 --> Language Class Initialized
+DEBUG - 2023-05-22 15:34:51 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:34:51 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:34:51 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:34:51 --> Loader Class Initialized
+INFO - 2023-05-22 15:34:51 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:34:51 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:34:51 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:34:51 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:34:51 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:34:51 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:34:51 --> Email Class Initialized
+INFO - 2023-05-22 15:34:51 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:34:51 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:34:51 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:34:51 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:34:51 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:34:51 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+INFO - 2023-05-22 15:34:58 --> Config Class Initialized
+INFO - 2023-05-22 15:34:58 --> Hooks Class Initialized
+DEBUG - 2023-05-22 15:34:58 --> UTF-8 Support Enabled
+INFO - 2023-05-22 15:34:58 --> Utf8 Class Initialized
+INFO - 2023-05-22 15:34:58 --> URI Class Initialized
+DEBUG - 2023-05-22 15:34:58 --> ============ Segments ======> Array
+(
+    [0] => ws
+    [1] => uihelper
+    [2] => permission
+)
+
+DEBUG - 2023-05-22 15:34:58 --> ============ IS DIR /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws ======> 1
+DEBUG - 2023-05-22 15:34:58 --> ============ Rewrite SetClass Routing ==========>  class: Uihelper
+INFO - 2023-05-22 15:34:58 --> Router Class Initialized
+INFO - 2023-05-22 15:34:58 --> Output Class Initialized
+INFO - 2023-05-22 15:34:58 --> Security Class Initialized
+DEBUG - 2023-05-22 15:34:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-05-22 15:34:58 --> Input Class Initialized
+INFO - 2023-05-22 15:34:58 --> Language Class Initialized
+DEBUG - 2023-05-22 15:34:58 --> ============ FIX Controller FilePath =======> /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/controllers/Ws/Uihelper.php  ==> Exist: 1
+DEBUG - 2023-05-22 15:34:58 --> FIX Method ====> permission
+DEBUG - 2023-05-22 15:34:58 --> ====== MASUK HTTP METHOD ====> permission_get
+INFO - 2023-05-22 15:34:58 --> Loader Class Initialized
+INFO - 2023-05-22 15:34:58 --> Helper loaded: url_helper
+INFO - 2023-05-22 15:34:58 --> Helper loaded: file_helper
+INFO - 2023-05-22 15:34:58 --> Helper loaded: formloader_helper
+INFO - 2023-05-22 15:34:58 --> Helper loaded: main_helper
+INFO - 2023-05-22 15:34:58 --> Database Driver Class Initialized
+INFO - 2023-05-22 15:34:58 --> Session: Class initialized using 'files' driver.
+INFO - 2023-05-22 15:34:58 --> Email Class Initialized
+INFO - 2023-05-22 15:34:58 --> Controller Class Initialized
+DEBUG - 2023-05-22 15:34:58 --> === Allowed Permission ===Array
+(
+    [0] => 2
+    [1] => 6
+    [2] => 3
+    [3] => 5
+)
+
+DEBUG - 2023-05-22 15:34:58 --> === All Menu With Allowed Permission ===Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 5f339Af3
+            [nama] => Dashboard
+            [lvl] => 1
+            [parent] => 
+            [url] => dashboard
+            [parrent_element] => sidebar
+            [bobot] => 0
+            [icon] => iconsmind-Shop-4
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 6
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 5f339ae2
+            [nama] => Halaman Login
+            [lvl] => 1
+            [parent] => 
+            [url] => auth/login
+            [parrent_element] => page
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 5
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => fK9dj32L
+            [nama] => Master Data
+            [lvl] => 1
+            [parent] => 
+            [url] => #
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Big-Data
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 5f339ae1
+            [nama] => Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => navigasi
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-menu
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 6DTlOtIs
+            [nama] => Web Service User Managemen
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/user/crud
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => Url CRUD User
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 3
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 5f339ae3
+            [nama] => Web Service  Navigasi
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/navigasi
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => Us9lGvUP
+            [nama] => Permission
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => permission
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => iconsmind-Security-Settings
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => ob7ISG6S
+            [nama] => User Management
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => users
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => simple-icon-people
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => SaLiDwvc
+            [nama] => Karyawan
+            [lvl] => 2
+            [parent] => fK9dj32L
+            [url] => karyawan
+            [parrent_element] => sidebar
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:34:58 --> === Menu (Current Url) ===Array
+(
+    [9] => stdClass Object
+        (
+            [id] => ig6uLLQ9
+            [nama] => Web Service Permission
+            [lvl] => 1
+            [parent] => 
+            [url] => ws/uihelper/permission
+            [parrent_element] => url
+            [bobot] => 1
+            [icon] => 
+            [deskripsi] => 
+            [aktif] => 1
+            [permission] => 2
+        )
+
+)
+
+DEBUG - 2023-05-22 15:34:58 --> Config file loaded: /Applications/XAMPP/xamppfiles/htdocs/akuntansi/application/config/menu.php
+DEBUG - 2023-05-22 15:34:58 -->  ======= MENU this PAGE Array
+(
+    [permission] => Array
+        (
+            [0] => 2
+        )
+
+    [harusLogin] => 1
+    [menus] => Array
+        (
+            [5f339Af3] => Array
+                (
+                    [id] => 5f339Af3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Dashboard
+                    [icon] => iconsmind-Shop-4
+                    [link] => dashboard
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae2] => Array
+                (
+                    [id] => 5f339ae2
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Halaman Login
+                    [icon] => 
+                    [link] => auth/login
+                    [parrent_element] => page
+                    [active] => 
+                )
+
+            [fK9dj32L] => Array
+                (
+                    [id] => fK9dj32L
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Master Data
+                    [icon] => iconsmind-Big-Data
+                    [link] => #
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [5f339ae1] => Array
+                (
+                    [id] => 5f339ae1
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Navigasi
+                    [icon] => simple-icon-menu
+                    [link] => navigasi
+                    [parrent_element] => sidebar
+                    [active] => 
+                )
+
+            [6DTlOtIs] => Array
+                (
+                    [id] => 6DTlOtIs
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service User Managemen
+                    [icon] => 
+                    [link] => ws/user/crud
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [5f339ae3] => Array
+                (
+                    [id] => 5f339ae3
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service  Navigasi
+                    [icon] => 
+                    [link] => ws/uihelper/navigasi
+                    [parrent_element] => url
+                    [active] => 
+                )
+
+            [ig6uLLQ9] => Array
+                (
+                    [id] => ig6uLLQ9
+                    [induk] => 
+                    [lvl] => 1
+                    [text] => Web Service Permission
+                    [icon] => 
+                    [link] => ws/uihelper/permission
+                    [parrent_element] => url
+                    [active] => 1
+                )
+
+        )
+
+    [subMenus] => Array
+        (
+            [fK9dj32L] => Array
+                (
+                    [induk] => fK9dj32L
+                    [menus] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Karyawan
+                                    [icon] => 
+                                    [link] => karyawan
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [1] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => Permission
+                                    [icon] => iconsmind-Security-Settings
+                                    [link] => permission
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                            [2] => Array
+                                (
+                                    [lvl] => 2
+                                    [text] => User Management
+                                    [icon] => simple-icon-people
+                                    [link] => users
+                                    [parrent_element] => sidebar
+                                    [active] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+

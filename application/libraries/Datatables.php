@@ -56,6 +56,7 @@ class Datatables {
                 'liketipe' => 'after',
             );
         }
+        $filterred_data_q = clone $query;
         if(!empty($keyword)){
             $i = 0;
             foreach($searchable as $v){
@@ -68,9 +69,8 @@ class Datatables {
                 }
                 $i++;
             }
-        }        
+        }
         $this->query = $query;
-        $filterred_data_q = clone $query;
         $this->filterred_data = $filterred_data_q->get()->num_rows();
         return $this;
     }
