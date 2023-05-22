@@ -91,6 +91,8 @@ class PersiapanHalaman {
                 $ci->load->view('errors/html/error_404', ['heading' => 'Denied', 'message' => 'Please logout before access this page']);
 
             $m = array();
+            $insertedMenus = [];
+            $insertedSubMenus = [];
             foreach($allMenu as $menu){
                 // if($menu->permission)
                 if($menu->aktif == 1 && !isset($m[$menu->id])){
@@ -99,6 +101,7 @@ class PersiapanHalaman {
                             $ci->session_info['subMenus'] = [];
                         }
                         if(!isset($ci->session_info['subMenus'][$menu->parent])){
+                            $insertedSubMenus[] = $menu->id;
                             $ci->session_info['subMenus'][$menu->parent] = array(
                                 'induk' => $menu->parent,
                                 'menus' =>array(
@@ -112,7 +115,8 @@ class PersiapanHalaman {
                                     )
                                 )
                             );
-                        }else{
+                        }elseif(!in_array($menu->id, $insertedSubMenus)){
+                            $insertedSubMenus[] = $menu->id;
                             $ci->session_info['subMenus'][$menu->parent]['menus'][] = array(
                                 'lvl' => $menu->lvl,
                                 'text' => $menu->nama,
