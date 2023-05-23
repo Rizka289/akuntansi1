@@ -108,18 +108,19 @@ class Navigasi
 
     function persiapanSimpan($post)
     {
+        $isEdit = isset($post['mode']) && $post['mode'] = 'edit';
         $menu = fieldmapping('navigasi-menu', $post, array(
             'deskripsi' => '#unset'
         ));
-        $menu['id'] = random(8);
-        $menu['aktif'] = 1;
-        
+        if(!$isEdit){
+            $menu['id'] = random(8);
+            $menu['aktif'] = 1;
+        }
         $permission = fieldmapping('navigasi-permission', $post);
         $permission['menu'] = $menu['id'];
 
         if ($menu['lvl'] == 1) unset($menu['induk']);
-        $isEdit = isset($post['mode']) && $post['mode'] = 'edit';
-
+       
         return [$permission, $menu, $isEdit];
     }
 

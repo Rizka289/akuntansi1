@@ -12,7 +12,7 @@ $config['menu'] = array(
 );
 
 $config['default_urls'] = array(
-    'phpinfo', 'ws/user/login', 'ws/user/logout', 'ws/uihelper/form', 'ws/uihelper/skrip',
+    '', 'phpinfo', 'ws/user/login', 'ws/user/logout', 'ws/uihelper/form', 'ws/uihelper/skrip',
 );
 $config['web_services'] = array(
     'ws/user/login', 'ws/user/logout', 'ws/uihelper/form', 'ws/uihelper/skrip',
