@@ -34,12 +34,12 @@ class Biaya extends CI_Controller{
         $input = fieldmapping('pengajuan-biaya', $post);
         $input['created_it'] = sessiondata('login', 'username');
         $input['deadline'] = waktu(strtotime($input['deadline']), MYSQL_DATE_FORMAT);
-        $input['date_created'] = waktu(null, MYSQL_DATE_FORMAT);
 
         try {
             if(!$isEdit){
-                  $this->db->insert('pengajuan_biaya', $input);
-                  response((object) $input);
+                $input['date_created'] = waktu(null, MYSQL_DATE_FORMAT);
+                $this->db->insert('pengajuan_biaya', $input);
+                response((object) $input);
             }else{
                   $this->db->where('application_number', $input['application_number'])->update('pengajuan_biaya', $input);
                   response("Berhasil Update Pengajuan Biaya #" . $input['application_number']);
