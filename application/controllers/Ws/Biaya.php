@@ -55,14 +55,14 @@ class Biaya extends CI_Controller{
         $hariIni = waktu(null, MYSQL_DATE_FORMAT);
         $nomorLama = $this->db->select('application_number nomor')
             ->where('date_created', $hariIni)
-            ->order_by('date_created', 'DESC')->get('pengajuan_biaya')->row();
+            ->order_by('application_number', 'DESC')->get('pengajuan_biaya')->row();
         $nomor = 'APN' . str_replace('-', '', $hariIni);
         if(empty($nomorLama)){
             $nomor .= '001';
         }else{
             $nomorLama = $nomorLama->nomor;
             $urutanTerakhir = str_replace($nomor, '', $nomorLama);
-            $nomor .= sprintf('%0002d', intval($urutanTerakhir) + 1);
+            $nomor .= sprintf('%04d', intval($urutanTerakhir) + 1);
         }
         response(['nomor_baru' => $nomor]);
         
