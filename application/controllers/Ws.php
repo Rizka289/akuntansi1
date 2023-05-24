@@ -111,7 +111,7 @@ class Ws extends CI_Controller
         else
             response(['boleh' => true]);
     }
-    function logout()
+    function logout_get()
     {
         if (!is_login())
             response(['message' => 'Anda belum login', 'type' => 'error'], 401);

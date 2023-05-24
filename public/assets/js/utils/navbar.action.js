@@ -2,12 +2,12 @@ $(document).ready(function(){
 	$('#logout').on('click', async function(e){
 		showLoading();
 		var options = {
-			url: path + 'ws/logout',
+			url: path + 'ws/user/logout',
 			method: 'GET',
 			success: function(){
 				endLoading();
 
-				location.href = path + 'admin/login'
+				location.href = path
 			}, 
 			error: function(err){
 				var err = JSON.parse(err.responseText);
