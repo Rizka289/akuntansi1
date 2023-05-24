@@ -34,6 +34,7 @@ class Biaya extends CI_Controller{
         $input = fieldmapping('pengajuan-biaya', $post);
         $input['created_it'] = sessiondata('login', 'username');
         $input['deadline'] = waktu(strtotime($input['deadline']), MYSQL_DATE_FORMAT);
+        $input['date_created'] = waktu(null, MYSQL_DATE_FORMAT);
 
         try {
             if(!$isEdit){
@@ -55,7 +56,6 @@ class Biaya extends CI_Controller{
         $nomorLama = $this->db->select('application_number nomor')
             ->where('date_created', $hariIni)
             ->order_by('date_created', 'DESC')->get('pengajuan_biaya')->row();
-
         $nomor = 'APN' . str_replace('-', '', $hariIni);
         if(empty($nomorLama)){
             $nomor .= '001';
