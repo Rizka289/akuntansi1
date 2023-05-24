@@ -180,16 +180,21 @@ class CI_Controller {
 	function error_page($file, $params, $type = 'html'){
 		$this->load->view('errors/' . $type . '/' . $file, $params);
 	}
-	function add_cachedJavascript($js, $type = 'file', $pos = "body:end", $data = array())
+	function add_cachedJavascript($js, $type = 'file', $pos = "body:end", $data = array(), $minify = true)
     {
         /** @var CI_Controller */
+		/** @var Minifier */
+
 		$CI =& get_instance();
 		$CI->load->library('Minifier');
 		try {
+			if($type == 'file'){
+				$js = !$minify ? $CI->load->js($js, $data, true) : $CI->minifier->minify($this->load->js($js, $data, true));
+			}
             $params = array(
-                'script' => $type == 'file' ? $CI->minifier->minify($this->load->js($js, $data, true)) : $js,
+                'script' => $js,
                 'type' => 'inline',
-                'pos' => 'body:end'
+                'pos' => $pos,
             );
             $this->params['extra_js'][] = $params;
 			

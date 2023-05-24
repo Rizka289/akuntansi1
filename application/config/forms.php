@@ -26,5 +26,11 @@ $config['form'] = array(
     ),
     'navigasi-permission' => array(
         'permission' =>  'permission',
+    ),
+    'pengajuan-biaya' => array(
+        'nomor_pengajuan' => 'application_number',
+        'deadline' => 'deadline',
+        'nominal' => 'nominal_diajukan',
+        'keterangan' => 'keterangan'
     )
 );

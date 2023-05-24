@@ -9,7 +9,7 @@
                             if($menu['parrent_element'] != 'sidebar') continue;
                 ?>
                 <li class="<?php echo isset($menu['active']) && $menu['active'] ? 'active': null ?>">
-                    <a href="<?php echo isset($subMenus) && isset($subMenus[$menu['id']]) ? "#" . $menu['id'] : $menu['link'] ?>">
+                    <a href="<?php echo (isset($subMenus) && isset($subMenus[$menu['id']]) || empty($menu['link'])) ? "#" . $menu['id'] : base_url($menu['link']) ?>">
                         <i class="<?php echo isset($menu['icon']) ? $menu['icon'] : null ?>"></i>
                         <span><?php echo $menu['text'] ?></span>
                     </a>
@@ -26,7 +26,7 @@
             <ul style="margin-top: 10%;" class="list-unstyled" data-link="<?php echo $submenu['induk'] ?>">
                 <?php foreach($submenu['menus'] as $menu): if($menu['parrent_element'] != 'sidebar') continue; ?>
                 <li class="submenu-item <?php echo isset($menu['active']) && $menu['active'] ? 'active': null ?>">
-                    <a style="font-size: 17px;" href="<?php echo $menu['link'] ?>">
+                    <a style="font-size: 17px;" href="<?php echo !empty($menu['link']) ? base_url($menu['link']) : '#' ?>">
                         <i class="<?php echo isset($menu['icon']) ? $menu['icon'] : null ?>"></i><?php echo $menu['text'] ?>
                     </a>
                 </li>

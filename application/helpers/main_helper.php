@@ -509,18 +509,20 @@ if (!function_exists('toolbar_items')) {
 }
 
 if (!function_exists('load_script')) {
-    function load_script($script, $data = array(), $return = false)
+    function load_script($script, $data = array(), $return = false, $minify = true)
     {
         $ci = &get_instance();
-        $minifier = new JS();
 
         $ext = pathinfo($script, PATHINFO_EXTENSION);
         if (empty($ext)) $script .= '.js';
         if (!file_exists(get_path(ASSETS_PATH . 'js/' . $script))) return null;
 
         $_script = $ci->load->js($script, $data, true);
-        $minifier->add($_script);
-        $_script = $minifier->minify();
+        if($minify){
+            $minifier = new JS();
+            $minifier->add($_script);
+            $_script = $minifier->minify();
+        }
         if ($return)
             return $_script;
         else

@@ -50,11 +50,10 @@ class Uihelper extends CI_Controller
         $header = array(
             'id' => array('searchable' => false),
             'nama' => array('searchable' => true),
-            'desc' => array('searchable' => 'deskripsi', 'field' => 'deskripsi')
+            'desc' => array('searchable' => true, 'field' => 'deskripsi')
         );
 
         $this->datatables->setHeader($header)
-            ->addSelect('permission.*')
             ->setQuery($q);
         $data =  $this->datatables->getData('object');
         response($data);
@@ -75,7 +74,7 @@ class Uihelper extends CI_Controller
                 response($new_data);
           }else{
                 $this->db->where('id', $post['id'])->update('permission', ['nama' => $post['nama'], 'deskripsi' => $post['desc']]);
-                response("Berhasil Update Navigasi #" . $post['id'] . " (" . $post['nama'] . ")");
+                response("Berhasil Update Permission #" . $post['id'] . " (" . $post['nama'] . ")");
           }
 
         } catch (\Throwable $th) {
@@ -109,7 +108,7 @@ class Uihelper extends CI_Controller
             response(['message' => 'File (form) kosong'], 404);
         $skrip = '';
         if(isset($_GET['s']) && !empty($_GET['s']))
-            $skrip = $_GET['s'];
+            $skripPath = $_GET['s'];
             
         $form = $_GET['f'];
         $data = array(
@@ -126,12 +125,12 @@ class Uihelper extends CI_Controller
         else {
             $html =  $this->load->view($form, $data, true);
             
-            if(!empty($skrip)){
-                $skrip = load_script($skrip, [
-                    'form_cache' => json_encode($data['ed']),
-                    'form_data' => json_encode($data['sv'])
-                ], true);    
-            }
+            // if(!empty($skrip)){
+            //     $skrip = load_script($skripPath, [
+            //         'form_cache' => json_encode($data['ed']),
+            //         'form_data' => json_encode($data['sv'])
+            //     ], true);    
+            // }
             response([
                 'html' => $html . $skrip
             ]);
@@ -159,6 +158,7 @@ class Uihelper extends CI_Controller
             if(isset($_GET['sv']))
                 $data['sv'] = json_decode($_GET['sv']);
 
+            
             response([
                 'skrip' => "<script>" . load_script($skrip,[
                     'form_cache' => json_encode($data['ed']),

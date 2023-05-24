@@ -38,12 +38,22 @@ class Datatables {
     
     function setQuery($query){        
         $searchable = [];
+        if(empty($this->selection)){
+            $tmp = [];
+            foreach ($this->header as $key => $value) {
+                if(isset($value['field']) && !empty($value['field']))
+                    $tmp[] = $value['field'] . ' as ' . $key;
+                else
+                    $tmp[] = $key;
+            }
+            $this->selection = join(',', $tmp);
+        }
         $query->select($this->selection);
         foreach($this->header as $key => $value){
             if(!isset($value['searchable']) || $value['searchable'] == false) continue;
 
-            if(is_string($value['searchable']))
-                $searchable[] = $value['searchable'];
+            if(isset($value['field']) && !empty($value['field']))
+                $searchable[] = $value['field'];
             else
                 $searchable[] = $key;
         }
@@ -85,10 +95,7 @@ class Datatables {
             $is_data_obj = is_object($v);
             $tmp = [];
             foreach($this->header as $key => $value){
-                if(isset($value['field']))
-                    $tmp[$key] = $is_data_obj ? $v->{$value['field']} : $v[$value['field']];
-                else
-                    $tmp[$key] = $is_data_obj ? $v->{$key} : $v[$key];
+                $tmp[$key] = $is_data_obj ? $v->{$key} : $v[$key];
             }
             $temp[] = $is_data_obj ? (object) $tmp : (array) $tmp;
         }

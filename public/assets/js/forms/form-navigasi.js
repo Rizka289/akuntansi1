@@ -27,7 +27,6 @@ $(document).ready(function(){
 
     async function _persiapan_data(){
         var data = {};
-
         // load data permission
         data.permission = await fetch('ws/uihelper/permission?dt=0', {method: 'GET'}).then(res => res.json()).then(res => res.data).catch(err => { console.log(err); return []});
         data.menu = await fetch('ws/uihelper/navigasi?j=sidebar&l=1&dt=0', {method: 'GET'}).then(res => res.json()).then(res => res.data).catch(err => { console.log(err); return []});

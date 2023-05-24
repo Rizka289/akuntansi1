@@ -6,7 +6,7 @@ class Auth extends CI_Controller
     function login()
     {
         if(is_login())
-            redirect(base_url());
+            redirect(base_url('dashboard'));
         $data = array(
             'resource' => array('main', 'form', 'login'),
             'content' => array('forms/login2'),

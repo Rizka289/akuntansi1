@@ -83,21 +83,21 @@ class Navigasi
         });
 
         $header = array(
-            'id' => array('searchable' => false),
+            'id' => array('searchable' => false, 'field' => 'menu.id'),
             'icon' => array('searchable' => false),
-            'nama' => array('searchable' => 'menu.nama'),
+            'nama' => array('searchable' => true, 'field' => 'menu.nama'),
             'url' => array('searchable' => true),
-            'level' => array('searchable' => 'lvl', 'field' => 'lvl'),
-            'jenis' => array('searchable' => 'parrent_element', 'field' => 'parrent_element'),
+            'level' => array('searchable' => true, 'field' => 'lvl'),
+            'jenis' => array('searchable' => true, 'field' => 'parrent_element'),
             'aktif' => array('searchable' => true),
-            'nama_permission' => array('searchable' => 'permission.nama', 'field' => 'nama_permission'),
-            'id_permission' => array('searchable' => false, 'field' => 'id_permission'),
-            'desc' => array('searchable' => 'menu.deskripsi ', 'field' => 'deskripsi'),
+            'nama_permission' => array('searchable' => true, 'field' => 'permission.nama'),
+            'id_permission' => array('searchable' => false, 'field' => 'permission.id'),
+            'desc' => array('searchable' => true, 'field' => 'menu.deskripsi'),
         );
 
 
         $ci->datatables->setHeader($header)
-            ->addSelect('menu.*, permission.nama as nama_permission, permission.id as id_permission')
+            // ->addSelect('menu.*, permission.nama as nama_permission, permission.id as id_permission')
             ->setQuery($query);
         $data =  $ci->datatables->getData();
         response($data);
@@ -110,7 +110,10 @@ class Navigasi
     {
         $isEdit = isset($post['mode']) && $post['mode'] = 'edit';
         $menu = fieldmapping('navigasi-menu', $post, array(
-            'deskripsi' => '#unset'
+            'deskripsi' => '#unset',
+            'url' => '#unset'
+        ), array(
+            'url' => array('#' => null)
         ));
         if(!$isEdit){
             $menu['id'] = random(8);

@@ -83,7 +83,7 @@
     <?php load_script('utils/dt_default_skrip.js', array(
         'form' => $form,
         'dtid' => $dtid
-    ))?>
+    ), false, false)?>
 </script>
 <script id="toolbar-user-skrip">
 <?php

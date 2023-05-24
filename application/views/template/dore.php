@@ -23,7 +23,7 @@ if (!isset($data_content))
 <main>
     <div class="container-fluid" style="<?php echo isset($ada_bg) && $ada_bg ? "background: url('" . $bg_url . "') no-repeat" : null ?>">
         <div class="col-12">
-            <h1 class="text-white"><?php echo isset($pageName) ? $pageName : null ?></h1>
+            <h1 class=""><?php echo isset($pageName) ? $pageName : null ?></h1>
             <nav class="breadcrumb-container d-none d-sm-block d-lg-inline-block" aria-label="breadcrumb">
                 <ol class="breadcrumb pt-0">
                     <li class="breadcrumb-item">
