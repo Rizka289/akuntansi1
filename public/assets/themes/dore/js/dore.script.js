@@ -3695,7 +3695,7 @@ $.fn.addCommas = function(nStr) {
       }
   
       /* 03.33. Showing Body */
-      $("body > *")
+      $("body > *:not(.modal-backdrop)")
         .stop()
         .delay(100)
         .animate({ opacity: 1 }, 300);
