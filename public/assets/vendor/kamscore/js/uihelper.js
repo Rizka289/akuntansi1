@@ -51,7 +51,13 @@ uihelper = function () {
         var cardEl = opt.modalBody.card;
         var input = opt.modalBody.input;
         var buttons = opt.modalBody.buttons;
-
+        
+        if(opt.formOpt){
+            ['formClass', 'formAttr', 'formId', 'enctype', 'formAct', 'formMethod'].forEach(key => {
+                if(!opt.formOpt[key])
+                    opt.formOpt[key] = '';
+            });
+        }
 
         if (!opt.modalBody.extra)
             opt.modalBody.extra = '';
@@ -123,8 +129,12 @@ uihelper = function () {
             bodyEl += inputEl + opt.modalBody.extra;
 
 
-        } else if (type == 'custom' || 'form-custom')
+        } else if (type == 'custom' || 'form-custom'){
+            var form = opt.formOpt;
+            var formTag = '<form enctype = "' + form.enctype + '" ' + form.formAttr + ' class="' + form.formClass + '" id ="' + form.formId + '" method = "' + form.formMethod + '" action = "' + form.formAct + '"';
+            opt.modalBody.customBody = opt.modalBody.customBody.replace('<form',formTag);
             bodyEl = opt.modalBody.customBody;
+        }
 
         return bodyEl;
     }
@@ -473,7 +483,7 @@ uihelper = function () {
             '</div>' +
             '<h6 id="modal-subtitle" class = "modal-title text-muted">' + opt.modalSubtitle + '</h6>' +
             '</div>' +
-            '<div class="modal-body">' + body + '</div>' + foot +
+            '<div class="modal-body pr-0 pl-0">' + body + '</div>' + foot +
             '</div>' +
             '</div>' +
             '</div>'
@@ -491,7 +501,7 @@ uihelper = function () {
                 '</div>' +
                 '<h6 id="modal-subtitle" class = "modal-title text-muted">' + opt.modalSubtitle + '</h6>' +
                 '</div>' +
-                '<div class="modal-body">' + body + '</div>' + foot +
+                '<div class="modal-body pr-0 pl-0">' + body + '</div>' + foot +
                 '</div>' +
                 '</div>' +
                 '</div>'
@@ -508,7 +518,7 @@ uihelper = function () {
                 '</div>' +
                 '<h6 id="modal-subtitle" class = "modal-title text-muted">' + opt.modalSubtitle + '</h6>' +
                 '</div>' +
-                '<div class="modal-body">' + body + '</div>' + foot +
+                '<div class="modal-body pr-0 pl-0">' + body + '</div>' + foot +
                 '</div>' +
                 '</div>' +
                 '</div>'
