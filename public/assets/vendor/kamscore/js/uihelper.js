@@ -132,7 +132,15 @@ uihelper = function () {
         } else if (type == 'custom' || 'form-custom'){
             var form = opt.formOpt;
             var formTag = '<form enctype = "' + form.enctype + '" ' + form.formAttr + ' class="' + form.formClass + '" id ="' + form.formId + '" method = "' + form.formMethod + '" action = "' + form.formAct + '"';
+            if (buttons) {
+                buttons.forEach(el => {
+                    var id = !el.id ? "" : el.id;
+                    var data = el.data ? el.data : "";
+                    buttonsEl += '<button style="margin: 0 5px; ' + el.style + '"' + data + ' type = "' + el.type + '" id = "' + id + '" class = "' + el.class + '">' + el.text + '</button>';
+                });
+            }
             opt.modalBody.customBody = opt.modalBody.customBody.replace('<form',formTag);
+            opt.modalBody.customBody = opt.modalBody.customBody.replace('</form>', buttonsEl + '</form>');
             bodyEl = opt.modalBody.customBody;
         }
 
@@ -483,7 +491,7 @@ uihelper = function () {
             '</div>' +
             '<h6 id="modal-subtitle" class = "modal-title text-muted">' + opt.modalSubtitle + '</h6>' +
             '</div>' +
-            '<div class="modal-body pr-0 pl-0">' + body + '</div>' + foot +
+            '<div class="modal-body pr-2 pl-2">' + body + '</div>' + foot +
             '</div>' +
             '</div>' +
             '</div>'
@@ -501,7 +509,7 @@ uihelper = function () {
                 '</div>' +
                 '<h6 id="modal-subtitle" class = "modal-title text-muted">' + opt.modalSubtitle + '</h6>' +
                 '</div>' +
-                '<div class="modal-body pr-0 pl-0">' + body + '</div>' + foot +
+                '<div class="modal-body pr-2 pl-2">' + body + '</div>' + foot +
                 '</div>' +
                 '</div>' +
                 '</div>'
@@ -518,7 +526,7 @@ uihelper = function () {
                 '</div>' +
                 '<h6 id="modal-subtitle" class = "modal-title text-muted">' + opt.modalSubtitle + '</h6>' +
                 '</div>' +
-                '<div class="modal-body pr-0 pl-0">' + body + '</div>' + foot +
+                '<div class="modal-body pr-2 pl-2">' + body + '</div>' + foot +
                 '</div>' +
                 '</div>' +
                 '</div>'

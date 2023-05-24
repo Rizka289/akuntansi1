@@ -3146,6 +3146,7 @@ $.fn.addCommas = function(nStr) {
       if ($().datepicker) {
         $("input.datepicker").datepicker({
           autoclose: true,
+          format: $(this).data('datepicker-format'),
           templates: {
             leftArrow: '<i class="simple-icon-arrow-left"></i>',
             rightArrow: '<i class="simple-icon-arrow-right"></i>'

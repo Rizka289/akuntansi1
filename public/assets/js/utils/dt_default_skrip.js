@@ -125,11 +125,11 @@ $(document).ready(function(){
                         return;
                     else {
                         $("#" + modalid).after(res.skrip);
+                        $('#' + form.formid).dore();
                     }
                 });
             },
             saatTutup: () => {
-                console.log(skripid);
                 $("#" + skripid).remove();
             },
             formOpt: {
@@ -207,8 +207,8 @@ $(document).ready(function(){
                     if (!res)
                         return;
                     else {
-                        modalConfig.opt.formOpt.formAct = form.updateurl != undefined ? path + form.updateurl : path + form.posturl;
-                        modalConfig.opt.modalBody.customBody = res.html
+                        modalConfig.opt.formOpt.formAct = !form.updateurl ? path + form.posturl : path + form.updateurl ;
+                        modalConfig.opt.modalBody.customBody = res.html;
                         generateModal(modalConfig.modalId, modalConfig.wrapper, modalConfig.opt)
                     }
                 });
