@@ -12,7 +12,7 @@ class Karyawan extends CI_Controller
             'dtTitle' => 'Daftar Karyawan yang Tersedia',
             'dtid' => 'dt-navigasi',
             'head' => array(
-               '','Nrp', 'Nik','Nama'
+               '','Nrp', 'Nik','Nama', 'Jabatan'
             ),
             'skrip' => 'dtconfig/dt_karyawan', //wajib
             'skrip_data' => array('id' => 'dt-navigasi'),
@@ -28,21 +28,96 @@ class Karyawan extends CI_Controller
                 'form-posisi'=>'def'
             ),
             'form' => array(
-                'id' => 'form-permission',
+                'id' => 'form-karyawan',
                 'path' => '',
-                'nama' => 'Form Permission',
-                'skrip' => 'forms/form-permission',
+                'nama' => 'Form Karyawan',
+                'skrip' => 'forms/form-karyawan',
                 'formGenerate' => array(
                     [
-                        "label" => 'Nama Permission', "placeholder" => 'Masukkan Permission',
+                        "label" => 'Tanggal Masuk Karyawan', "placeholder" => 'Masukkan Tanggal Masuk Karyawan',
+                        "type" => 'date', "name" => 'tgl_masuk', "id" => 'tgl_masuk'
+                    ],
+                    [
+                        "label" => 'Nama Karyawan', "placeholder" => 'Masukkan Karyawan',
                         "type" => 'text', "name" => 'nama', "id" => 'nama', "attr" => 'required'
                     ],
                     [
-                        "label" => 'Deskripsi', "placeholder" => '',
-                        "type" => 'textarea', "name" => 'desc', "id" => 'desc'
+                        "label" => 'NIK', "placeholder" => 'Masukkan NIK',
+                        "type" => 'nummber', "name" => 'nik', "id" => 'nik', "attr" => 'required'
+                    ],
+                    [
+                        "label" => 'NRP', "placeholder" => 'Masukkan NRP',
+                        "type" => 'text', "name" => 'nrp', "id" => 'nrp'
+                    ],
+                    [
+                        "label" => 'No Handphone', "placeholder" => 'Masukkan No. Handphone',
+                        "type" => 'text', "name" => 'nope', "id" => 'nope'
+                    ],
+                    [
+                        "label" => 'Jenis Kelamin', "placeholder" => 'Jenis Kelamin',
+                        "type" => 'select', "name" => 'jk', "id" => 'jk', "attr" => 'required', 'options' => array(
+                            '1' => array('text' => "Laki-Laki"), '2' => array('text' => "Perempuan" )
+                        )
+                    ],
+                    [
+                        "label" => 'Tempat Lahir', "placeholder" => 'Masukkan Tempat Lahir',
+                        "type" => 'text', "name" => 'tempat_lahir', "id" => 'tempat_lahir'
+                    ],
+                    [
+                        "label" => 'Tanggal Lahir', "placeholder" => 'Masukkan Tanggal Lahir',
+                        "type" => 'date', "name" => 'tgl_lahir', "id" => 'tgl_lahir'
+                    ],
+                    [
+                        "label" => 'Status Perkawinan', "placeholder" => 'Status Perkawinan', 
+                        "type" => 'select', "name" => 'sts', "id" => 'sts', "attr" => 'required', 'options' => array(
+                            '1' => array('text' => "Belum Kawin"), '2' => array('text' => "Kawin" ),
+                            '3' => array('text' => "Cerai hidup"), '4' => array('text' => "Cerai Mati")
+                        )
+                    ],
+                    [
+                        "label" => 'Jumlah Anak', "placeholder" => 'Masukkan Jumlah Anak',
+                        "type" => 'number', "name" => 'jml_anak', "id" => 'jml_anak'
+                    ],
+                    [
+                        "label" => 'Pendidikan', "placeholder" => 'Pilih Pendidikan',
+                        "type" => 'select', "name" => 'pendidikan', "id" => 'pendidikan', "attr" => 'required', 'options' => array(
+                            '1' => array('text' => "SD/MI"), '2' => array('text' => "SMP/MTS" ), '3' => array('text'=>"SMA/SMK/MA"),
+                            '4' => array('text' => "D1"), '5' => array('text' => 'D2'), '6' => array('text' => 'D3'), 
+                            '7' => array('text' => 'D4'), '8' => array('text' => 'S1'), '9' => array('text' => 'S2')
+                        )
+                    ],
+                    [
+                        "label" => 'Jabatan', "placeholder" => 'Pilih Jabatan',
+                        "type" => 'select', "name" => 'jabatan', "id" => 'jabatan', "attr" => 'required', 'options' => array(
+                            '1' => array('text' => "Manager"), '2' => array('text' => "Checker" ), '3' => array( 'text' => "Driver"),
+                            '4' => array('text' => "PM")
+                        )
+                    ],
+                    [
+                        "label" => 'Agama', "placeholder" => 'Pilih Agama',
+                        "type" => 'select', "name" => 'agama', "id" => 'agama', "attr" => 'required', 'options' => array(
+                            '1' => array('text' => "Islam"), '2' => array('text' => "Katolik" ), '3' => array('text'=>"Kristen"),
+                            '4' => array('text' => "Hindu"), '5' => array('text' => "Budha"), '6' => array('text' => 'Konghucu')
+                        )
+                    ],
+                    [
+                        "label" => 'Bank', "placeholder" => 'Pilih Bank',
+                        "type" => 'select', "name" => 'bank', "id" => 'bank', 'options' => array(
+                            '1' => array('text' => "BNI"), '2' => array('text' => "BCA" ), '3' => array('text'=>"BRI"),
+                            '4' => array('text' => "MANDIRI"), '5' => array('text' => "CIMB NIAGA"),
+                            '6' => array('text' => "PERMATA")
+                        )
+                    ],
+                    [
+                        "label" => 'Nomor Rekening', "placeholder" => 'Masukkan Nomor Rekening',
+                        "type" => 'number', "name" => 'norek', "id" => 'norek'
+                    ],
+                    [
+                        "label" => 'Upah Pokok', "placeholder" => 'Masukkan Upah Pokok',
+                        "type" => 'text', "name" => 'upah', "id" => 'upah'
                     ],
                 ),
-                'posturl' => 'ws/uihelper/permission',
+                'posturl' => 'ws/uihelper/karyawan',
                 'updateurl' => '',
                 'deleteurl' => '',
                 'buttons' => array(
@@ -77,7 +152,7 @@ class Karyawan extends CI_Controller
             'adaThemeSelector' => false,
             'navbar' => 'component/navbar/navbar.dore',
             'sidebar' => 'component/sidebar/sidebar.dore',
-            'pageName' => 'Permission',
+            'pageName' => 'Karyawan',
             'navbarConf' => array(
                 'adaSidebar' => true,
                 'adaUserMenu' => true,

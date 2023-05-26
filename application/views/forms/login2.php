@@ -1,6 +1,6 @@
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('<?= assets_url('img/background/def-bg.png') ?>');">
+		<div class="container-login100" style="background-image: url('<?= assets_url('img/background/bg.jpg') ?>');">
 			<div class="wrap-login100">
 				<form id="form-login" action="<?= base_url('ws/user/login') ?>" method="POST" class="login100-form validate-form">
 					<span class="login100-form-logo">
