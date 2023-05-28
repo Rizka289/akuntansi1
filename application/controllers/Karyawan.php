@@ -7,17 +7,16 @@ class Karyawan extends CI_Controller
     }
     function index()
     {
-        $perm = $this->db->select('id, nama')->get('karyawan')->result();
         $tabel = $this->getContentView('component/datatables/datatables.responsive', array(
             'dtTitle' => 'Daftar Karyawan yang Tersedia',
             'dtid' => 'dt-navigasi',
             'head' => array(
-               '','Nrp', 'Nik','Nama', 'Jabatan'
+               '','Nrp', 'Nik','Nama', 'Jabatan', 'Username/akun'
             ),
             'skrip' => 'dtconfig/dt_karyawan', //wajib
             'skrip_data' => array('id' => 'dt-navigasi'),
             'options' => array(
-                'source' => 'ws/uihelper/karyawan',
+                'source' => 'ws/user/karyawan',
                 'search' => 'false', 
                 'select' => 'multi', //false, true, multi
                 'checkbox' => 'true',
@@ -25,7 +24,8 @@ class Karyawan extends CI_Controller
                 'dom' => 'rtip',
                 'responsive' => 'true',
                 'auto-refresh' => '20000',
-                'form-posisi'=>'def'
+                'form-posisi'=> 'def',
+                'form-size' => 'lg'
             ),
             'form' => array(
                 'id' => 'form-karyawan',
@@ -117,7 +117,7 @@ class Karyawan extends CI_Controller
                         "type" => 'text', "name" => 'upah', "id" => 'upah'
                     ],
                 ),
-                'posturl' => 'ws/uihelper/karyawan',
+                'posturl' => 'ws/user/karyawan',
                 'updateurl' => '',
                 'deleteurl' => '',
                 'buttons' => array(

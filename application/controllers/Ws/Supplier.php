@@ -19,7 +19,6 @@ class Supplier extends CI_Controller{
             'telephone' => array('searchable' => true)
             
         );
-
         $this->datatables->setHeader($header)
             ->setQuery($q);
         $data =  $this->datatables->getData('object');
@@ -38,13 +37,11 @@ class Supplier extends CI_Controller{
         try {
           if(!$isEdit){
                 $this->db->insert('supplier', $data);
-                $new_data = $this->db->order_by('id', 'DESC')->get('supplier')->row();
-                $new_data->message = "Berhasil menambahkan supplier baru";
-                response($new_data);
+                response("Berhasil menambahkan supplier baru (" . $data['nama'] . ")");
           }else{
                 $this->db->where('id', $post['id'])->update('supplier', ['nama' => $post['nama'], 'alamat' =>$post['alamat'],
                 'kota'=> $post['kota'],'telephone'=> $post['telephone']]);
-                response("Berhasil Update Navigasi #" . $post['id'] . " (" . $post['nama'] . ")");
+                response("Berhasil Update Supplier #" . $post['id'] . " (" . $post['nama'] . ")");
           }
 
         } catch (\Throwable $th) {
