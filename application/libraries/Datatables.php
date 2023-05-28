@@ -110,7 +110,7 @@ class Datatables {
     function getData( string $tipe = 'object', $enableCache = false){
         if($enableCache)
             $this->query->cache_on();
-    
+        $query2 = clone $this->query;
         $this->data = $this->query->get()->result($tipe);
         if($enableCache)
             $this->query->cache_off();
@@ -118,7 +118,7 @@ class Datatables {
         $data = $this->_get_data();
         if(!empty($this->resultHandler)){
             $callback = $this->resultHandler;
-            $data = $callback($this->data, $data, $this->header, $this->query);
+            $data = $callback($this->data, $data, $this->header, $query2);
         }
         $this->all_data = count($data);
         if(!empty($this->keyword))
