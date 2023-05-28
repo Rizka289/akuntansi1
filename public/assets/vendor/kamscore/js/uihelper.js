@@ -478,9 +478,19 @@ uihelper = function () {
         if (!opt.modalPos)
             opt.modalPos = 'def';
 
+        var customSize = '';
+        if(opt.size && !['sm', 'lg', 'xl'].includes(opt.size)){
+            customSize = 'max-width: ' + opt.size;
+        }else if(opt.size && ['sm', 'lg', 'xl'].includes(opt.size)){
+            opt.size = 'modal-' + opt.size;
+        }
+        else if(!opt.size){
+            opt.size = '';
+        }
+
         var modalTemplate = opt.modalPos == 'def' ?
             '<div style="overflow-y: scroll" class="modal fade" id="' + modalId + '" tabindex="-1" role="dialog">' +
-            '<div class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
+            '<div style="'+ customSize +'" class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
             '<div class="modal-content">' +
             '<div class="modal-header d-block">' +
             '<div class = "d-flex">' +
@@ -491,14 +501,14 @@ uihelper = function () {
             '</div>' +
             '<h6 id="modal-subtitle" class = "modal-title text-muted">' + opt.modalSubtitle + '</h6>' +
             '</div>' +
-            '<div class="modal-body pr-2 pl-2">' + body + '</div>' + foot +
+            '<div class="modal-body">' + body + '</div>' + foot +
             '</div>' +
             '</div>' +
             '</div>'
             :
             opt.modalPos == 'left' ?
                 '<div style="overflow-y:scroll" class="modal fade modal-lef" id="' + modalId + '" tabindex="-1" role="dialog">' +
-                '<div class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
+                '<div style="'+ customSize +'" class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
                 '<div class="modal-content">' +
                 '<div class="modal-header d-block">' +
                 '<div class = "d-flex">' +
@@ -509,13 +519,13 @@ uihelper = function () {
                 '</div>' +
                 '<h6 id="modal-subtitle" class = "modal-title text-muted">' + opt.modalSubtitle + '</h6>' +
                 '</div>' +
-                '<div class="modal-body pr-2 pl-2">' + body + '</div>' + foot +
+                '<div class="modal-body">' + body + '</div>' + foot +
                 '</div>' +
                 '</div>' +
                 '</div>'
                 :
                 '<div style="overflow-y: scroll" class="modal fade modal-right" id="' + modalId + '" tabindex="-1" role="dialog">' +
-                '<div class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
+                '<div style="'+ customSize +'" class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
                 '<div class="modal-content">' +
                 '<div class="modal-header d-block">' +
                 '<div class = "d-flex">' +
@@ -526,7 +536,7 @@ uihelper = function () {
                 '</div>' +
                 '<h6 id="modal-subtitle" class = "modal-title text-muted">' + opt.modalSubtitle + '</h6>' +
                 '</div>' +
-                '<div class="modal-body pr-2 pl-2">' + body + '</div>' + foot +
+                '<div class="modal-body">' + body + '</div>' + foot +
                 '</div>' +
                 '</div>' +
                 '</div>'

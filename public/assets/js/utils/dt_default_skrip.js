@@ -90,7 +90,8 @@ $(document).ready(function(){
             },
             open: true,
             destroy: true,
-            modalPos: attributTabel.formPosisi?attributTabel.formPosisi:'rigth',
+            modalPos: attributTabel.formPosisi?attributTabel.formPosisi :'rigth',
+            size: attributTabel.formSize? attributTabel.formSize : '',
             saatBuka: (innerOpt) => {
                 var datatable = getInstance('dataTables', dtid);
                 if(!datatable) return;
