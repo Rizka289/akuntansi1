@@ -406,6 +406,7 @@ if ( ! is_php('5.4'))
 	log_message("DEBUG", "============ FIX Controller FilePath =======> " . APPPATH.'controllers/'.$RTR->directory.$class.'.php  ==> Exist: ' . file_exists(APPPATH.'controllers/'.$RTR->directory.$class.'.php'));
 	$httpMethod = $_SERVER['REQUEST_METHOD'];
 	$is_post = in_array($httpMethod, array('DELETE', 'POST'));
+	$is_dir = false;
 	if (empty($class) OR ! file_exists(APPPATH.'controllers/'.$RTR->directory.$class.'.php'))
 	{
 		$e404 = TRUE;
@@ -413,6 +414,7 @@ if ( ! is_php('5.4'))
 	else
 	{
 		require_once(APPPATH.'controllers/'.$RTR->directory.$class.'.php');
+		$is_dir = true;
 		log_message("DEBUG", 'FIX Method ====> ' . print_r($method, true));
 		// deteksi http method yang digunakan
 		$method_and_http = $method . "_" . strtolower($httpMethod);
@@ -427,7 +429,7 @@ if ( ! is_php('5.4'))
 		}
 		elseif (method_exists($class, '_remap'))
 		{
-			$params = array($method, array_slice($URI->rsegments, 2));
+			$params = array($method, array_slice($URI->rsegments, ($is_dir ? 3 : 2)));
 			$method = '_remap';
 		}
 		elseif ( ! method_exists($class, $method))
@@ -519,8 +521,10 @@ if ( ! is_php('5.4'))
 
 	if ($method !== '_remap')
 	{
-		$params = array_slice($URI->rsegments, 2);
+		$params = array_slice($URI->rsegments, ($is_dir ? 3 : 2));
 	}
+
+	log_message('debug', '====== URL PARAMS =====' . print_r($params, true));
 
 /*
  * ------------------------------------------------------
