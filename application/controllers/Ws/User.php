@@ -29,7 +29,27 @@ class User extends CI_Controller{
 
     }
 
-    function crud_get(){
+    function crud_get($username = null){
+        $query = $this->db->from('user')
+            ->join('user_permission', 'user_permission.username = user.username')
+            ->join('profile', 'profile.id = user.profile', 'left');
 
+        if(!empty($username))
+            $query->where('user.username', $username);
+        
+        $this->load->library('Datatables');
+
+        $header = array(
+            'username' => array('searchable' => true, 'field' => 'user.username')
+        );
+
+        $this->datatables->setHeader($header);
+        $this->datatables->setQuery($query);
+        $this->datatables->set_resultHandler(function($raw, $results, $header, $query){
+            return $results;
+        });
+
+        $data = $this->datatables->getData();
+        response($data);
     }
 }

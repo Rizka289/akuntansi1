@@ -33,11 +33,11 @@ class Authentication
         $ci = &get_instance();
 
         $user = $ci->db
-            ->select('user.*')
+            ->select('user.*, profile.*')
             ->where('user.username', $input['user'])
             ->or_where('user.email', $input['user'])
             ->from('user')
-            // ->join('profile', 'user.profile = profile.id', 'left')
+            ->join('profile', 'user.profile = profile.id', 'left')
             ->get()->row_array();
         $ci->db->reset_query();
 
