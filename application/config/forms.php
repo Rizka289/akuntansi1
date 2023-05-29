@@ -8,7 +8,6 @@ $config['form'] = array(
     ],
     'user' => array(
         'username' => 'username',
-        'nama' => 'nama', 
         'email' => 'email', 
         'hp' => 'hp', 
         'password' => 'password'

@@ -6,6 +6,11 @@
   body.show-spinner > *{
     opacity: 0;
   }
+  .symbol-required::after{
+    content: "*";
+    font-size: 20px;
+    color: rgb(233, 63, 63);
+  }
   .c-overlay {
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */

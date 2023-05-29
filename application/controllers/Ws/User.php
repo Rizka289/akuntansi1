@@ -21,6 +21,19 @@ class User extends CI_Controller{
         }
     }
 
+    function username_post()
+    {
+        if (sessiondata('login', 'username') == $_POST['username']) response(['boleh' => false]);
+        if (!isset($_POST['username']) || empty($_POST['username'])) response(['boleh' => false]);
+        $usernameBaru = $_POST['username'];
+
+        $user = $this->db->select('*')->where('username', $usernameBaru)->get('user')->result();
+        if (!empty($user))
+            response(['boleh' => false]);
+        else
+            response(['boleh' => true]);
+    }
+
     function crud_post(){
 
     }
@@ -98,13 +111,59 @@ class User extends CI_Controller{
         );
         $peta = array();
         $data = fieldmapping('profile', $post, $default, $peta);
+
+        $user = fieldmapping('user', $post, ['username' => null]);
+        $permission = fieldmapping('navigasi-permission', $post);
+        if(isset($data['no_hp']))
+            $user['hp'] = $data['no_hp'];
+        
+        // gunakan nik sebagai password default
+        if(!empty($user['username'])){
+            $user['password'] = password_hash($data['nik'], PASSWORD_DEFAULT);
+        }
+
         try {
           if(!$isEdit){
+                $data['id'] = random(8);
                 $this->db->insert('profile', $data);
-                response('Berhasil menambahkan karyawan baru (' . $data['nama_lengpa'] . ')');
+
+                // Insert Akun jika ada
+                if(!empty($user['username'])){
+                    $user['profile'] = $data['id'];
+                    $this->db->insert('user', $user);
+
+                    // Insert User-permission jika ada
+                    $perm = [];
+                    foreach($permission['permission'] as $p){
+                        $perm[] = array(
+                            'permission_id' => $p,
+                            'username' => $user['username'],
+                        );
+                    }
+                    $this->db->insert_batch('user_permission', $perm);
+                }
+                response('Berhasil menambahkan karyawan baru (' . $data['nama_lengkap'] . ')');
           }else{
                 $this->db->where('id', $post['id'])->update('profile', $data);
-                response("Berhasil Update Navigasi #" . $post['id'] . " (" . $data['nama_lengpa'] . ")");
+
+                // Hapus user dan permission
+                $this->db->where('profile', $post['id'])->delete('user');
+
+                if(!empty($user['username'])){
+                    $user['profile'] = $post['id'];
+                    $this->db->insert('user', $user);
+
+                    // Insert User-permission jika ada
+                    $perm = [];
+                    foreach($permission as $p){
+                        $perm[] = array(
+                            'permission_id' => $p,
+                            'username' => $user['username'],
+                        );
+                    }
+                    $this->db->insert_batch('user_permission');
+                }
+                response("Berhasil Update Karyawan #" . $post['id'] . " (" . $data['nama_lengkap'] . ")");
           }
 
         } catch (\Throwable $th) {

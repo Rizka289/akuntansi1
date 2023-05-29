@@ -57,6 +57,7 @@ $config['themes'] = array(
     'dore' => array(
         'css' => array(
             array('pos' => 'head', 'src' => 'themes/dore/css/dore.light.purple.css'),
+            array('pos' => 'head', 'src' => 'themes/dore/css/custom-switch.css'),
             array('pos' => 'head', 'src' => 'themes/dore/css/main.css')
         ),
         'js' => array(
@@ -165,6 +166,7 @@ $config['themes'] = array(
             array('pos' => 'head', 'src' => 'https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js', 'type' => 'cdn'),
             array('pos' => 'head', 'src' => 'vendor/datepicker/js/bootstrap-datepicker.js'),
             array('pos' => 'head', 'src' => 'vendor/timepicker/jquery.timepicker.js'),
+            array('pos' => 'head', 'src' => 'vendor/rivets/rivet.js'),
             // array('pos' => 'head', 'src' => 'js/utils/main.init.js'),
         ),
         'css' => array(
