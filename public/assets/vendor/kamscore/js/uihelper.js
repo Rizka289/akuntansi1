@@ -31,19 +31,19 @@ uihelper = function () {
         dataTables: {}
     };
 
-    this.setConfigTabel = function(id, data){
+    this.setConfigTabel = function (id, data) {
         configTabel[id] = data;
     }
-    this._getConfigTabel = function(id){
-        if(!configTabel[id]) return null;
+    this._getConfigTabel = function (id) {
+        if (!configTabel[id]) return null;
         return configTabel[id];
     }
 
-    this.setKonfigBaris = function(id, data){
+    this.setKonfigBaris = function (id, data) {
         konfigBaris[id] = data;
     }
-    this._getKonfigBaris = function(id){
-        if(!konfigBaris[id]) return null;
+    this._getKonfigBaris = function (id) {
+        if (!konfigBaris[id]) return null;
         return konfigBaris[id];
     }
 
@@ -53,7 +53,7 @@ uihelper = function () {
     this.getAllInstance = function (ins, key) {
         return instance;
     }
-    this.removeInstance = function(ins, key){
+    this.removeInstance = function (ins, key) {
         delete instance[ins][key];
     }
     this.setInstance = function (ins, key, val) {
@@ -67,10 +67,10 @@ uihelper = function () {
         var cardEl = opt.modalBody.card;
         var input = opt.modalBody.input;
         var buttons = opt.modalBody.buttons;
-        
-        if(opt.formOpt){
+
+        if (opt.formOpt) {
             ['formClass', 'formAttr', 'formId', 'enctype', 'formAct', 'formMethod'].forEach(key => {
-                if(!opt.formOpt[key])
+                if (!opt.formOpt[key])
                     opt.formOpt[key] = '';
             });
         }
@@ -145,7 +145,7 @@ uihelper = function () {
             bodyEl += inputEl + opt.modalBody.extra;
 
 
-        } else if (type == 'custom' || 'form-custom'){
+        } else if (type == 'custom' || 'form-custom') {
             var form = opt.formOpt;
             var formTag = '<form enctype = "' + form.enctype + '" ' + form.formAttr + ' class="' + form.formClass + '" id ="' + form.formId + '" method = "' + form.formMethod + '" action = "' + form.formAct + '"';
             if (buttons) {
@@ -155,7 +155,7 @@ uihelper = function () {
                     buttonsEl += '<button style="margin: 0 5px; ' + el.style + '"' + data + ' type = "' + el.type + '" id = "' + id + '" class = "' + el.class + '">' + el.text + '</button>';
                 });
             }
-            opt.modalBody.customBody = opt.modalBody.customBody.replace('<form',formTag);
+            opt.modalBody.customBody = opt.modalBody.customBody.replace('<form', formTag);
             opt.modalBody.customBody = opt.modalBody.customBody.replace('</form>', buttonsEl + '</form>');
             bodyEl = opt.modalBody.customBody;
         }
@@ -414,25 +414,25 @@ uihelper = function () {
         });
 
         if (el.type == 'file') {
-            if($.dore !== undefined){
+            if ($.dore !== undefined) {
                 return '<div class="input-group col-sm-7 ' + el.fgClass + '">' +
-                '<span class="input-group-btn">' +
-                '<span class="btn btn-default btn-file">' +
-                'Browse… <input type="' + el.type + '" name="' + el.name + '" id="' + id + '">' +
-                '</span>' +
-                '</span>' +
-                '<input type="text" value="' + el.value + '" class="form-control ' + el.class + '" readonly>' +
-                '</div>';
-            }else{
+                    '<span class="input-group-btn">' +
+                    '<span class="btn btn-default btn-file">' +
+                    'Browse… <input type="' + el.type + '" name="' + el.name + '" id="' + id + '">' +
+                    '</span>' +
+                    '</span>' +
+                    '<input type="text" value="' + el.value + '" class="form-control ' + el.class + '" readonly>' +
+                    '</div>';
+            } else {
                 return '<div class="input-group col-sm-7 ' + el.fgClass + '">' +
-                '<span class="input-group-btn">' +
-                '<span class="btn btn-default btn-file">' +
-                'Browse… <input type="' + el.type + '" name="' + el.name + '" id="' + id + '">' +
-                '</span>' +
-                '</span>' +
-                '</div>';
+                    '<span class="input-group-btn">' +
+                    '<span class="btn btn-default btn-file">' +
+                    'Browse… <input type="' + el.type + '" name="' + el.name + '" id="' + id + '">' +
+                    '</span>' +
+                    '</span>' +
+                    '</div>';
             }
-            
+
         }
         if (el.type == 'hidden')
             return '<input type="hidden" value="' + el.value + '" id="' + id + '" name = "' + el.name + '" />';
@@ -458,9 +458,9 @@ uihelper = function () {
         var body = "";
         var foot = "";
         var stored = null;
-        if(opt.clickToClose == undefined)
+        if (opt.clickToClose == undefined)
             opt.clickToClose = true;
-            
+
         var kembalian = null;
         if (!opt.type)
             opt.type = "nonForm";
@@ -495,18 +495,18 @@ uihelper = function () {
             opt.modalPos = 'def';
 
         var customSize = '';
-        if(opt.size && !['sm', 'lg', 'xl'].includes(opt.size)){
+        if (opt.size && !['sm', 'lg', 'xl'].includes(opt.size)) {
             customSize = 'max-width: ' + opt.size;
-        }else if(opt.size && ['sm', 'lg', 'xl'].includes(opt.size)){
+        } else if (opt.size && ['sm', 'lg', 'xl'].includes(opt.size)) {
             opt.size = 'modal-' + opt.size;
         }
-        else if(!opt.size){
+        else if (!opt.size) {
             opt.size = '';
         }
 
         var modalTemplate = opt.modalPos == 'def' ?
             '<div style="overflow-y: scroll" class="modal fade" id="' + modalId + '" tabindex="-1" role="dialog">' +
-            '<div style="'+ customSize +'" class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
+            '<div style="' + customSize + '" class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
             '<div class="modal-content">' +
             '<div class="modal-header d-block">' +
             '<div class = "d-flex">' +
@@ -524,7 +524,7 @@ uihelper = function () {
             :
             opt.modalPos == 'left' ?
                 '<div style="overflow-y:scroll" class="modal fade modal-lef" id="' + modalId + '" tabindex="-1" role="dialog">' +
-                '<div style="'+ customSize +'" class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
+                '<div style="' + customSize + '" class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
                 '<div class="modal-content">' +
                 '<div class="modal-header d-block">' +
                 '<div class = "d-flex">' +
@@ -541,7 +541,7 @@ uihelper = function () {
                 '</div>'
                 :
                 '<div style="overflow-y: scroll" class="modal fade modal-right" id="' + modalId + '" tabindex="-1" role="dialog">' +
-                '<div style="'+ customSize +'" class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
+                '<div style="' + customSize + '" class="modal-dialog ' + opt.size + ' dialog-scrollable" role="document">' +
                 '<div class="modal-content">' +
                 '<div class="modal-header d-block">' +
                 '<div class = "d-flex">' +
@@ -598,7 +598,7 @@ uihelper = function () {
                         beforeSubmit: sebelumSubmit
                     };
 
-                    if(opt.headers != null)
+                    if (opt.headers != null)
                         options.headers = opt.headers;
 
                     if (opt.rules) {
@@ -610,14 +610,14 @@ uihelper = function () {
                         })
                     }
                     window.formOpt = options
-                    var instance_validator =  $("#" + formid).validate({
+                    var instance_validator = $("#" + formid).validate({
                         rules: rules,
                         submitHandler: function (form) {
                             $('#' + formid + ' #alert_danger, #alert_success').html('').hide();
                             $(form).ajaxSubmit(options);
                         }
                     });
-                    
+
                     this.setInstance('validator', modalId.replaceAll('-', '_'), instance_validator);
                 }
                 this.storeAjaxSubmit({ key: opt.formOpt.formId, callback: ajaxSubmit });
@@ -715,9 +715,9 @@ uihelper = function () {
             }
         };
 
-        if(opt.columnDefs != undefined)
+        if (opt.columnDefs != undefined)
             options.columnDefs = opt.columnDefs;
-            
+
         console.log("OPT CDN", options);
         var table = $(el).DataTable(options);
 
@@ -904,7 +904,7 @@ uihelper = function () {
 
             })
         }
-        var form =  $("#" + formid).validate({
+        var form = $("#" + formid).validate({
             rules: rules,
             submitHandler: function (form) {
                 $('#' + formid + ' #alert_danger, #alert_success').html('').hide();
@@ -1022,36 +1022,36 @@ uihelper = function () {
         var selected_rows = [];
         var configTabel = _getConfigTabel(id);
         var konfigBaris = _getKonfigBaris(id);
-        var createdRow = function(row, data, index){};
+        var createdRow = function (row, data, index) { };
         var selectRow = attribut.select == undefined ? true : attribut.select;
         var panel = $("#displayOptions-" + id);
-        if(configTabel == null){
+        if (configTabel == null) {
             alert("Config Tabel " + id + " tidak ditemukan");
         }
         var columnDefs = [];
         var autoDeselect = attribut.deselectOnRefresh == undefined ? true : attribut.deselectOnRefresh;
-        if(attribut.checkbox){
+        if (attribut.checkbox) {
             columnDefs = [
                 {
                     'targets': 0,
                     'checkboxes': {
-                       'selectRow': selectRow
+                        'selectRow': selectRow
                     },
-                    'createdCell':  function (td, cellData, rowData, row, col){
+                    'createdCell': function (td, cellData, rowData, row, col) {
                         this.api().cell(td).checkboxes.deselect();
-                        if(autoDeselect)
+                        if (autoDeselect)
                             this.api().cell(td).checkboxes.deselect();
 
-                        else if(!autoDeselect){
+                        else if (!autoDeselect) {
                             var selected = [];
                             var key = '_dt_s_' + id;
                             var s = window.localStorage.getItem(key);
-                            if(s)
+                            if (s)
                                 selected = s.split(',');
-                            if(selected.length > 0)
+                            if (selected.length > 0)
                                 this.api().cell(td).checkboxes.deselect();
 
-                            if(selected.length > 0 && selected.includes(rowData.id)){
+                            if (selected.length > 0 && selected.includes(rowData.id)) {
                                 this.api().cell(td).checkboxes.select();
                             }
                         }
@@ -1059,7 +1059,7 @@ uihelper = function () {
                 }
             ];
         }
-        if(konfigBaris){
+        if (konfigBaris) {
             createdRow = konfigBaris;
         }
 
@@ -1073,14 +1073,14 @@ uihelper = function () {
             columnDefs: columnDefs,
             deferRender: false,
             info: attribut.showInfo == undefined ? true : attribut.showInfo,
-            initComplete: function(){
-                if(attribut.ajax != false)
+            initComplete: function () {
+                if (attribut.ajax != false)
                     createProto(this);
 
                 var key = '_dt_s_' + id;
                 window.localStorage.removeItem(key);
             },
-            createdRow: function(row, data, dataIndex ){
+            createdRow: function (row, data, dataIndex) {
                 if (opt.rowCallback) {
                     opt.rowCallback.forEach(rowc => {
                         data['index'] = dataIndex;
@@ -1090,101 +1090,111 @@ uihelper = function () {
                             $(row).on(rowc.evt, { data: data }, rowc.func);
                     })
                 }
-                var checkbox = $(row).find('input[type="checkbox"]');
-                $(row).click(function(){
-                    $(checkbox).trigger('change');
-                });
-                createdRow(row, data, dataIndex, panel);
+                if (this.select !== false) {
+                    var checkbox = $(row).find('input[type="checkbox"]');
+                    checkbox.change(function () {
+                        var tombolSatuData = $(panel).find('.satu');
+                        var selected = dt_instance.rows({selected:true}).data();
+                        if(selected.length != 1){
+                            tombolSatuData.hide();
+                        }
+                    });
+
+                    $(row).click(function () {
+                        $(checkbox).trigger('change');
+                    });
+                    createdRow(row, data, dataIndex, panel);
+                }
                 $(checkbox).addClass(dataIndex.toString());
             },
         };
-        if(attribut.ajax != false){
+        if (attribut.ajax != false) {
             options.processing = true,
-            options.ajax = path + attribut.source;
-            options.serverSide= true;
+                options.ajax = path + attribut.source;
+            options.serverSide = true;
             options.columns = configTabel;
-        }else{
+        } else {
             await renderDatatablesOffline(path + attribut.source, id, configTabel)
         }
 
         var dt_instance = $("#" + id).DataTable(options);
-        if(panel.length > 0){
+        if (panel.length > 0) {
             var searchBar = panel.find('.table-search input');
             var lengthMenu = panel.find('.length-menu a');
-            searchBar.keyup(function(){
+            searchBar.keyup(function () {
                 var val = $(this).val();
                 dt_instance.search(val).draw();
             });
 
-            lengthMenu.click(function(e){
+            lengthMenu.click(function (e) {
                 e.preventDefault();
                 var length = $(this).text();
                 dt_instance.page.len(length).draw();
             });
         }
 
-        if(attribut.autoRefresh != undefined && attribut.autoRefresh !=  false){
+        if (attribut.autoRefresh != undefined && attribut.autoRefresh != false) {
             var interval = 2000;
-            if(attribut.autoRefresh != true){
+            if (attribut.autoRefresh != true) {
                 interval = parseInt(attribut.autoRefresh);
-                if(!interval) interval = 2000;
+                if (!interval) interval = 2000;
             }
-            setInterval(function(){
+            setInterval(function () {
                 // store selected id to localstorage
-                var selected = dt_instance.rows({selected: true}).data().toArray();
+                var selected = dt_instance.rows({ selected: true }).data().toArray();
                 var tmp = [];
                 selected.forEach(d => {
                     tmp.push(d.id);
                 });
                 var key = '_dt_s_' + id;
                 window.localStorage.setItem(key, tmp);
-                if(attribut.ajax != false){
+                if (attribut.ajax != false) {
                     console.log("RELOAD DATATABLE WITH AJAX");
                     dt_instance.ajax.reload(null, true);
                 }
-                else{
+                else {
                     console.log("RELOAD DATATABLE WITH OFFLINE RENDERER");
                     renderDatatablesOffline(path + attribut.source, id, configTabel);
                 }
             }, interval);
         }
 
-        
-        dt_instance.rows().data().__proto__.edit = function(newData){
+
+        dt_instance.rows().data().__proto__.edit = function (newData) {
             var data = this[0];
         }
-        function createProto($dt){
+        function createProto($dt) {
             dt_instance.__proto__.api = $dt.api;
         }
         setInstance('dataTables', id, dt_instance);
 
     }
-    $(document).ready(function(){
+    $(document).ready(function () {
         // if(!$().dataTable && ! $().DataTable) return;
         // $('.dataTable').initDatatable();
     });
 
 
-    async function renderDatatablesOffline(path, dtid, configTabel){
+    async function renderDatatablesOffline(path, dtid, configTabel) {
         await fetch(path).then(res => res.json()).then(res => {
-            var data  = res.data;
+            var data = res.data;
             var tabel = $("#" + dtid);
             var rows = '';
-            if(!configTabel)
-                throw("Konfig datatable #" + dtid + " invalid");
+            if (!configTabel)
+                throw ("Konfig datatable #" + dtid + " invalid");
 
             tabel.find('tbody').empty();
             data.forEach(row => {
                 rows += '<tr>';
                 configTabel.forEach(column => {
-                    if(column.data == undefined || column.data == null || column.data == ''){
+                    if (column.data == undefined || column.data == null || column.data == '') {
                         rows += '<td></td>';
-                    }else if(column.data && column.data != null && column.data != '' && !column.mRender){
+                    } else if (column.data && column.data != null && column.data != '' && !column.mRender) {
                         rows += '<td>' + row[column.data] + '</td>';
-                    }else if(column.mRender && typeof(column.mRender) =='function'){
+                    } else if (column.mRender && typeof (column.mRender) == 'function') {
                         rows += '<td>' + column.mRender(null, null, row) + '</td>';
                     }
-                    
+
                 });
                 rows += '</tr>';
             });
@@ -1193,7 +1203,7 @@ uihelper = function () {
             console.log("Error Proccessing Datatable #" + dtid, err);
         })
     }
-    async function load_skrip(path_skrip){
+    async function load_skrip(path_skrip) {
         await fetch(path + 'ws/uihelper/scriptloader?path=' + path_skrip, { method: 'GET' }).then(res => res.json()).then(res => {
             if (!res.data) {
                 endLoading();
@@ -1204,7 +1214,7 @@ uihelper = function () {
             endLoading();
         }).catch(err => { endLoading() });
     }
-    this.copyToClipboard = function(text, pesan) {
+    this.copyToClipboard = function (text, pesan) {
         var sampleTextarea = document.createElement("textarea");
         document.body.appendChild(sampleTextarea);
         sampleTextarea.value = text; //save main text in it
