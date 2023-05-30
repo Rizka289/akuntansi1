@@ -1,4 +1,5 @@
-configTabel["<?= $id ?>"] = [
+var id = "<?= $id ?>";
+var configTabel = [
     { 
         mData: null,
     },
@@ -47,3 +48,5 @@ configTabel["<?= $id ?>"] = [
         sWidth: "20%",
     }
 ];
+
+setConfigTabel(id, configTabel);

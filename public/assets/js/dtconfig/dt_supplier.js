@@ -1,4 +1,5 @@
-configTabel["<?= $id ?>"] = [
+var id = "<?= $id ?>";
+var configTabel = [
     { 
         mData: null,
     },
@@ -15,3 +16,5 @@ configTabel["<?= $id ?>"] = [
        data: 'telephone'
     },
 ];
+
+setConfigTabel(id, configTabel);
