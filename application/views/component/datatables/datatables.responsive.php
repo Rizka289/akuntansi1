@@ -8,11 +8,11 @@
     if(!isset($skrip_data)) $skrip_data = [];
     if(!isset($skrip) || empty($skrip) || !file_exists(get_path(ASSETS_PATH . "js/" . $skrip) . ".js"))
         echo "<script> alert('Skrip datatable " . $dtid. " tidak ditemukan');</script>";
-    else
-        echo "<script>" . load_script($skrip, $skrip_data, true) . "</script>";
+    else{
+        echo "<script> $(document).ready(function(){" . load_script($skrip, $skrip_data, true) . "\n $('#" . $dtid ."').initDatatable();});</script>";
 
+    }
     if(!isset($perpage) && isset($pages) && !empty($pages)) $perpage = 10;
-
     if(!isset($form)) $form = array('formid'=>'form-'. $dtid, 'posturl' => '', 'path' => '', 'skrip' => '', 'formGenerate' => '');
     else$form = array_merge(array('formid'=>'form-'. $dtid, 'posturl' => '', 'path' => '', 'skrip' => '', 'formGenerate' => '', 'nama' => '', 'skripVar' => (object)[]), $form);
 ?>

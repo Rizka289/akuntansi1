@@ -1,6 +1,7 @@
 uihelper = function () {
     var _generatedModal = {};
-    this.configTabel = {};
+    var configTabel = {};
+    var konfigBaris = {};
     var _ajaxSubmit = {};
     this.storeModal = function (params) {
         _generatedModal[params.key.toString().replaceAll('-', '_')] = {
@@ -30,6 +31,21 @@ uihelper = function () {
         dataTables: {}
     };
 
+    this.setConfigTabel = function(id, data){
+        configTabel[id] = data;
+    }
+    this._getConfigTabel = function(id){
+        if(!configTabel[id]) return null;
+        return configTabel[id];
+    }
+
+    this.setKonfigBaris = function(id, data){
+        konfigBaris[id] = data;
+    }
+    this._getKonfigBaris = function(id){
+        if(!konfigBaris[id]) return null;
+        return konfigBaris[id];
+    }
 
     this.getInstance = function (ins, key) {
         return instance[ins][key];
@@ -678,7 +694,6 @@ uihelper = function () {
             createdRow: function (row, data, index) {
                 if (opt.rowCallback) {
                     opt.rowCallback.forEach(rowc => {
-                        console.log(row);
                         if (rowc.filter)
                             $(row).on(rowc.evt, rowc.filter, { data: data }, rowc.func);
                         else
@@ -1005,11 +1020,14 @@ uihelper = function () {
         var file_skrip_dtconfig = attribut.skrip;
         var skrip_dtconfig = null;
         var selected_rows = [];
+        var configTabel = _getConfigTabel(id);
+        var konfigBaris = _getKonfigBaris(id);
+        var createdRow = function(row, data, index){};
         var selectRow = attribut.select == undefined ? true : attribut.select;
-        if(!configTabel[id]){
+        var panel = $("#displayOptions-" + id);
+        if(configTabel == null){
             alert("Config Tabel " + id + " tidak ditemukan");
         }
-    
         var columnDefs = [];
         var autoDeselect = attribut.deselectOnRefresh == undefined ? true : attribut.deselectOnRefresh;
         if(attribut.checkbox){
@@ -1038,8 +1056,11 @@ uihelper = function () {
                             }
                         }
                     }
-                 }
+                }
             ];
+        }
+        if(konfigBaris){
+            createdRow = konfigBaris;
         }
 
         var options = {
@@ -1058,24 +1079,35 @@ uihelper = function () {
 
                 var key = '_dt_s_' + id;
                 window.localStorage.removeItem(key);
-                
-
             },
             createdRow: function(row, data, dataIndex ){
-                $(row).find('input.dt-checkboxes').addClass(dataIndex.toString());
+                if (opt.rowCallback) {
+                    opt.rowCallback.forEach(rowc => {
+                        data['index'] = dataIndex;
+                        if (rowc.filter)
+                            $(row).on(rowc.evt, rowc.filter, { data: data }, rowc.func);
+                        else
+                            $(row).on(rowc.evt, { data: data }, rowc.func);
+                    })
+                }
+                var checkbox = $(row).find('input[type="checkbox"]');
+                $(row).click(function(){
+                    $(checkbox).trigger('change');
+                });
+                createdRow(row, data, dataIndex, panel);
+                $(checkbox).addClass(dataIndex.toString());
             },
         };
         if(attribut.ajax != false){
             options.processing = true,
             options.ajax = path + attribut.source;
             options.serverSide= true;
-            options.columns = configTabel[id];
+            options.columns = configTabel;
         }else{
-            await renderDatatablesOffline(path + attribut.source, id, configTabel[id])
+            await renderDatatablesOffline(path + attribut.source, id, configTabel)
         }
 
         var dt_instance = $("#" + id).DataTable(options);
-        var panel = $("#displayOptions-" + id);
         if(panel.length > 0){
             var searchBar = panel.find('.table-search input');
             var lengthMenu = panel.find('.length-menu a');
@@ -1112,7 +1144,7 @@ uihelper = function () {
                 }
                 else{
                     console.log("RELOAD DATATABLE WITH OFFLINE RENDERER");
-                    renderDatatablesOffline(path + attribut.source, id, configTabel[id]);
+                    renderDatatablesOffline(path + attribut.source, id, configTabel);
                 }
             }, interval);
         }
@@ -1120,8 +1152,6 @@ uihelper = function () {
         
         dt_instance.rows().data().__proto__.edit = function(newData){
             var data = this[0];
-            this[0].jenis = 'aaffa';
-            this.setan = 'agaga';
         }
         function createProto($dt){
             dt_instance.__proto__.api = $dt.api;
@@ -1130,9 +1160,8 @@ uihelper = function () {
 
     }
     $(document).ready(function(){
-        if(!$().dataTable && ! $().DataTable) return;
-
-        $('.dataTable').initDatatable();
+        // if(!$().dataTable && ! $().DataTable) return;
+        // $('.dataTable').initDatatable();
     });
 
 
@@ -1175,7 +1204,6 @@ uihelper = function () {
             endLoading();
         }).catch(err => { endLoading() });
     }
-
     this.copyToClipboard = function(text, pesan) {
         var sampleTextarea = document.createElement("textarea");
         document.body.appendChild(sampleTextarea);
