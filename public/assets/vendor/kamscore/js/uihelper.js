@@ -1097,6 +1097,8 @@ uihelper = function () {
                         var selected = dt_instance.rows({selected:true}).data();
                         if(selected.length != 1){
                             tombolSatuData.hide();
+                        }else{
+                            tombolSatuData.show();
                         }
                     });
 
