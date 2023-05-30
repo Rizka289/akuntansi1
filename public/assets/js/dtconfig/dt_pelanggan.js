@@ -15,3 +15,4 @@ configTabel["<?= $id ?>"] = [
        data: 'telephone'
     },
 ];
+setConfigTabel(id, configTabel);

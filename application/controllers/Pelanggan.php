@@ -14,7 +14,7 @@ class Pelanggan extends CI_Controller
             'head' => array(
                '','Nama', 'Alamat', 'Kota', 'No. Telephone'
             ),
-            'skrip' => 'dtconfig/dt_pelanggan', //wajib
+            'skrip' => 'dtconfig/dt_supplier', //wajib
             'skrip_data' => array('id' => 'dt-navigasi'),
             'options' => array(
                 'source' => 'ws/supplier/pelanggan',
@@ -61,7 +61,7 @@ class Pelanggan extends CI_Controller
             'data_panel' => array(
                 'nama' => 'dt-navigasi',
                 'perpage' => 10,
-                'pages' => array(1, 2, 10),
+                'pages' => array(1, 3, 10),
                 'hilangkan_display_length' => true,
                 'toolbar' => array(
                     array(
@@ -70,6 +70,7 @@ class Pelanggan extends CI_Controller
                             array('tipe' => 'link', 'href' => '#', 'title' => 'Tambah', 'icon' => 'icon-plus simple-icon-paper-plane', 'class' => 'btn-outline-primary tool-add tetap'),
                             array('tipe' => 'link', 'href' => '#', 'title' => 'Edit', 'icon' => 'icon-edit simple-icon-note', 'class' => 'tool-edit'),
                             array('tipe' => 'link', 'href' => '#', 'title' => 'Hapus', 'icon' => 'icon-remove simple-icon-trash', 'class' => 'tool-delete'),
+                            array('tipe' => 'link', 'href' => '#', 'title' => 'Detail', 'icon' => 'icon-remove simple-icon-trash', 'class' => ''),
                         )
                     ),
                 ),
