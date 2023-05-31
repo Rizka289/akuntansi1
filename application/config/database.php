@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'akuntansi',
+	'hostname' => 'jptajm.org',
+	'username' => 'u1275618_akuntansi',
+	'password' => 'akuntansi12345',
+	'database' => 'u1275618_akuntansi',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
